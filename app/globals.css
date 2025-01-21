@@ -145,7 +145,7 @@
 
 /* Body styles */
 body {
-  @apply bg-background text-foreground text-body;
+  @apply bg-[#191E29] text-foreground text-body;
 }
 
 /* Button styles */

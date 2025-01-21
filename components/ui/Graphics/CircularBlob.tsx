@@ -7,7 +7,7 @@ interface GraphicImageProps {
   width?: string;
   opacity?: number;
   src: string;
-  mobileOnly?: boolean;
+  landscapeOnly?: boolean;
 }
 
 const GraphicImage: React.FC<GraphicImageProps> = ({
@@ -17,14 +17,14 @@ const GraphicImage: React.FC<GraphicImageProps> = ({
   width = "w-[40rem]",
   opacity = 1,
   src,
-  mobileOnly = false,
+  landscapeOnly = false,
 }) => {
   return (
     <Image
       src={src}
       width={1024}
       height={1024}
-      className={`absolute ${top} ${right} ${left} h-[100rem] ${width} -z-50 ${mobileOnly ? "hidden md:block" : ""}`}
+      className={`absolute ${top} ${right} ${left} h-[100rem] ${width} -z-50 ${landscapeOnly ? "hidden md:block" : ""}`}
       quality={100}
       priority
       alt="Graphics"
