@@ -2,6 +2,7 @@ import React from "react";
 import { BrandLogo } from "@/components/ui/brand/logo";
 import Link from "next/link";
 import { HamburgerMenu } from "./hamburger";
+import { Button } from "../ui/button";
 
 export const Header: React.FC = () => {
   return (
@@ -12,34 +13,52 @@ export const Header: React.FC = () => {
       <nav className="hidden lg:flex items-center gap-10">
         <ul className="flex items-center gap-10">
           <li>
-            <Link href="#about-us" className="text-white hover:text-gray-300">
+            <Button asChild variant={"link"}>
+
+            <Link href="#about-us" >
               About Us
             </Link>
+            </Button>
           </li>
           <li>
-            <Link href="/team" className="text-white hover:text-gray-300">
+            <Button asChild variant={"link"}>
+
+            <Link href="/team" >
               Team
             </Link>
+            </Button>
           </li>
           <li>
-            <Link href="/workshops" className="text-white hover:text-gray-300">
+            <Button asChild variant={"link"}>
+
+            <Link href="/workshops" >
               Workshops
             </Link>
+            </Button>
           </li>
           <li>
-            <Link href="#partners" className="text-white hover:text-gray-300">
+            <Button asChild variant={"link"}>
+
+            <Link href="#partners" >
               For partners
             </Link>
+            </Button>
           </li>
           <li>
-            <Link href="#speakers" className="text-white hover:text-gray-300">
+            <Button asChild variant={"link"}>
+
+            <Link href="#speakers" >
               For speakers
             </Link>
+            </Button>
           </li>
           <li>
+            <Button asChild variant={"link"}>
+
             <Link href="#" className="btn-primary hover:bg-black">
               Get Tickets
             </Link>
+            </Button>
           </li>
         </ul>
       </nav>

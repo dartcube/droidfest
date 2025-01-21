@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Github, Globe, Linkedin, Twitter } from 'lucide-react';
 import speakers from '@/consts/Speakers';
+import { Spotlight } from '../ui/spotlight';
 
 interface Speaker {
   name: string;
@@ -31,9 +32,12 @@ const SpeakerSection: React.FC = () => {
 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
       {speakers.map((speaker, index) => (
-        <div key={index} className="bg-zinc-900 rounded-2xl shadow-md p-8">
+        <div key={index} className="bg-zinc-900 backdrop-filter backdrop-blur-sm bg-opacity-40 border  border-white/10  rounded-2xl shadow-md p-8">
+         <Spotlight
+        className="-top-40 scale-150 left-0 md:left-60 md:-top-20"
+      />
           <div className="flex flex-col items-center text-center">
-            <div className="relative w-48 h-48 rounded-full overflow-hidden mb-4">
+            <div className="relative w-48 h-48  rounded-full overflow-hidden mb-4">
               <Image
                 src={speaker.image}
                 alt={speaker.name}

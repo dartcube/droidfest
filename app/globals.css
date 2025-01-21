@@ -145,7 +145,8 @@
 
 /* Body styles */
 body {
-  @apply bg-[#191E29] text-foreground text-body;
+  @apply text-foreground text-body;
+  background: linear-gradient(180deg, #000000 0%, #131e29 50%);
 }
 
 /* Button styles */
