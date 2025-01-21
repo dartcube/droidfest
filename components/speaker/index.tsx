@@ -31,8 +31,8 @@ const SpeakerSection: React.FC = () => {
 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
       {speakers.map((speaker, index) => (
-        <div key={index} className="bg-stone-900 rounded-2xl shadow-md p-8">
-          <div className="flex flex-col items-center">
+        <div key={index} className="bg-zinc-900 rounded-2xl shadow-md p-8">
+          <div className="flex flex-col items-center text-center">
             <div className="relative w-48 h-48 rounded-full overflow-hidden mb-4">
               <Image
                 src={speaker.image}
@@ -41,28 +41,28 @@ const SpeakerSection: React.FC = () => {
                 className="object-cover"
               />
             </div>
-            <h3 className="text-xl font-bold mb-2">{speaker.name}</h3>
-            <p className="text-gray-600 mb-4">{speaker.position}</p>
+            <h3 className="text-xl font-bold text-center mb-2">{speaker.name}</h3>
+            <p className="text-gray-600 mb-4 text-center text-sm text-white/80">{speaker.position}</p>
             
             <div className="flex space-x-4">
               {speaker.linkedin && (
                 <a href={speaker.linkedin} target="_blank" rel="noopener noreferrer">
-                  <Linkedin className="text-2xl text-blue-600" />
+                  <Linkedin className="text-2xl text-blue hover:text-gray duration-300 transition-all" />
                 </a>
               )}
               {speaker.twitter && (
                 <a href={speaker.twitter} target="_blank" rel="noopener noreferrer">
-                  <Twitter className="text-2xl text-blue-400" />
+                  <Twitter className="text-2xl text-blue hover:text-gray duration-300 transition-all" />
                 </a>
               )}
               {speaker.github && (
                 <a href={speaker.github} target="_blank" rel="noopzener noreferrer">
-                  <Github className="text-2xl text-gray-800" />
+                  <Github className="text-2xl text-blue hover:text-gray duration-300 transition-all" />
                 </a>
               )}
               {speaker.website && (
                 <a href={speaker.website} target="_blank" rel="noopener noreferrer">
-                  <Globe className="text-2xl text-gray-600" />
+                  <Globe className="text-2xl text-blue hover:text-gray duration-300 transition-all" />
                 </a>
               )}
             </div>
