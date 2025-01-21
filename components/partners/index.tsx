@@ -1,18 +1,11 @@
-import { Logos } from "@/consts/Partners";
+import { partners } from "@/consts/Partners";
 import React from "react";
 import Marquee from "../ui/marquee";
 import { BrandLogo } from "../ui/brand/logo";
+import Image from "next/image";
 
 const Partners: React.FC = () => {
-  const partnersData = [
-    { id: 1, logoSrc: "/speaker.png" },
-    { id: 2, logoSrc: "/speaker.png" },
-    { id: 3, logoSrc: "/speaker.png" },
-    { id: 4, logoSrc: "/speaker.png" },
-    { id: 5, logoSrc: "/speaker.png" },
-    { id: 6, logoSrc: "/speaker.png" },
-  ];
-  const arr = [Logos.tailwindcss, Logos.framer, Logos.nextjs, Logos.aws];
+
   return (
     <section
       id="partners"
@@ -29,8 +22,8 @@ const Partners: React.FC = () => {
         pauseOnHover
         className="[--duration:20s] [--gap:60px] w-full mt-6 grayscale hover:grayscale-0  "
       >
-        {[0,1,2,3,4,5,6,7,8,9].map((_, index) => (
-          <BrandLogo key={index} className="w-40"/>
+        {partners.map((partner, index) => (
+          <Image key={index} src={partner.src} title={partner.title} alt={partner.title} width={100} height={100}/>
         ))}
       </Marquee>
     </section>

@@ -2,9 +2,7 @@
 const nextConfig = {
   images: {
   },
-  experimental: {
-    reactServerComponents: true,
-  },
+
 };
 
 export default nextConfig;
