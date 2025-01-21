@@ -14,7 +14,7 @@ export default function FAQSection() {
     <div className="p-6 flex items-center justify-center">
       <div className="max-w-3xl w-full space-y-8">
         <div className="text-center space-y-2">
-          <h1 className="text-6xl font-bold text-purple-500">FAQs</h1>
+          <h1 className="text-6xl font-bold bg-text-gradient bg-clip-text text-transparent">FAQs</h1>
           <h2 className="text-2xl text-white/80">Frequently asked questions</h2>
         </div>
 
