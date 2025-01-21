@@ -1,7 +1,6 @@
 import { partners } from "@/consts/Partners";
 import React from "react";
 import Marquee from "../ui/marquee";
-import { BrandLogo } from "../ui/brand/logo";
 import Image from "next/image";
 
 const Partners: React.FC = () => {
