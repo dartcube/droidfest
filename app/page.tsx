@@ -4,6 +4,7 @@ import Partners from "../components/partners";
 import FAQSection from "@/components/faq";
 import Hero from "@/components/Hero";
 import VectorLayer from "@/components/VectorLayer";
+import Timeline from '@/components/Timeline';
 import Footer from "@/components/footer";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <VectorLayer />
       <Hero/>
       <AboutUs />
+      <Timeline/>
       <Partners/>
       <Speaker />
       <FAQSection/>
