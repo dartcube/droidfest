@@ -32,7 +32,7 @@ const SpeakerSection: React.FC = () => {
 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
       {speakers.map((speaker, index) => (
-        <div key={index} className="bg-zinc-900 backdrop-filter backdrop-blur-sm bg-opacity-40 border  border-white/10  rounded-2xl shadow-md p-8">
+        <div key={index} className="bg-zinc-950 backdrop-filter hover:opacity-100 backdrop-blur-sm bg-opacity-40 border  border-white/10  rounded-2xl shadow-md p-8">
          <Spotlight
         className="-top-40 scale-150 left-0 md:left-60 md:-top-20"
       />
