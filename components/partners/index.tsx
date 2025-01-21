@@ -13,8 +13,10 @@ const Partners: React.FC = () => {
   return (
     <section
       id="partners"
-      className="relative bg-gradient-to-b from-[#121212] to-[#1a1a1a] py-16 px-8 bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/BackgroundEffects.png')" }}
+      className="relative
+      py-16 px-8 bg-cover bg-center bg-no-repeat"
+      // bg-gradient-to-b from-[#121212] to-[#1a1a1a] 
+      // style={{ backgroundImage: "url('/BackgroundEffects.png')" }}
     >
 
       <h2 className="text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-purple-400 mb-12">

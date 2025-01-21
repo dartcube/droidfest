@@ -32,11 +32,13 @@ export default function Home() {
         </div>
       </main>
 
-     
+     <main className="max-w-7xl px-2 mx-auto">
+
       <AboutUs />
       <Partners/>
       <Speaker />
       <FAQSection/>
+     </main>
     </div>
   );
 }
