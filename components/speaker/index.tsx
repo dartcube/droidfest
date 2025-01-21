@@ -56,7 +56,7 @@ const Speakers: React.FC = () => {
       // style={{ backgroundImage: "url('/BackgroundEffects.png')" }}
     >
 
-      <h2 className="text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-purple-400 mb-12">
+      <h2 className="text-5xl font-bold text-center text-transparent bg-clip-text bg-text-gradient mb-12">
         Speakers
       </h2>
 
