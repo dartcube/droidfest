@@ -37,7 +37,7 @@ export const Header: React.FC = () => {
             </Link>
           </li>
           <li>
-            <Link href="#" className="btn-primary">
+            <Link href="#" className="btn-primary hover:bg-black">
               Get Tickets
             </Link>
           </li>

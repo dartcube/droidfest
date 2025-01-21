@@ -153,7 +153,7 @@ body {
 
 /* Button styles */
 .btn-primary {
-  @apply bg-light px-6 py-2.5 text-dark rounded-full transition-colors duration-300 ease-in-out hover:bg-blue hover:text-light;
+  @apply bg-light px-6 py-2.5 text-dark rounded-full transition-colors duration-300 ease-in-out hover:bg-magenta hover:text-light;
 }
 
 .btn-secondary {
