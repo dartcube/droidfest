@@ -4,7 +4,6 @@ import Link from "next/link";
 function index() {
   return (
     <main className="flex flex-col h-[100dvh] w-full py-12 px-4 md:py-24 md:px-20 items-start justify-center md:justify-end">
-              <Image src="/bgmesh.webp" width={1024} height={500}  className="absolute top-0 left-0 right-0 w-full -z-50" quality={100} priority alt={"Graphics"}/>
 
       <div className="content max-w-screen-lg w-full sm:pr-20 flex flex-col gap-8">
         <div className="flex flex-col gap-2">

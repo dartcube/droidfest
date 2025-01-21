@@ -3,15 +3,19 @@ import Speaker from "../components/speaker";
 import Partners from "../components/partners";
 import FAQSection from "@/components/faq";
 import Hero from "@/components/Hero";
+import VectorLayer from "@/components/VectorLayer";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col h-full flex-grow overflow-x-hidden">
+    <div className="flex flex-col h-full flex-grow overflow-x-hidden overflow-y-hidden">
+      <VectorLayer />
       <Hero/>
       <AboutUs />
       <Partners/>
       <Speaker />
       <FAQSection/>
+      <Footer/>
     </div>
   );
 }

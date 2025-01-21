@@ -31,8 +31,8 @@ const Partners: React.FC = () => {
             />
           ))}
         </Marquee>
-        <div className="absolute right-0 h-full bg-gradient-to-l from-black to-transparent top-0 bottom-0 w-32 portrait:w-8 z-50"></div>
-        <div className="absolute left-0 h-full bg-gradient-to-r from-black to-transparent top-0 bottom-0 w-32 portrait:w-8 z-50"></div>
+        {/* <div className="absolute right-0 h-full bg-gradient-to-l from-black to-transparent top-0 bottom-0 w-32 portrait:w-8 z-50"></div>
+        <div className="absolute left-0 h-full bg-gradient-to-r from-black to-transparent top-0 bottom-0 w-32 portrait:w-8 z-50"></div> */}
       </div>
     </section>
   );

@@ -7,7 +7,7 @@ import { Facebook, Twitter, Linkedin, Instagram, Youtube } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-900  text-white py-6">
+    <footer className=" bg-transparent  text-white py-6">
       <div className="container mx-auto text-center flex w-full flex-col items-center gap-3">
         <BrandLogo className={"w-64"} />
         <Button className="border rounded-full">Contact Us</Button>

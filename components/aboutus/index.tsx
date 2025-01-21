@@ -4,9 +4,11 @@ const AboutUs: React.FC = () => {
   return (
     <section
       id="about-us"
-      className="relative flex items-center justify-center w-full py-20 px-8"
+      className="relative flex items-center justify-center w-full py-20 px-8 relative"
       // style={{ backgroundImage: "url('/BackgroundEffects.png')" }}
     >
+     
+
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="flex justify-center">
           <img
