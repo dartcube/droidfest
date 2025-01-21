@@ -32,12 +32,12 @@ export default function Home() {
         </div>
       </main>
 
-     <div className="max-w-7xl px-2 mx-auto">
+     {/* <div className="max-w-7xl px-2 mx-auto"> */}
       <AboutUs />
       <Partners/>
       <Speaker />
       <FAQSection/>
-     </div>
+     {/* </div> */}
     </div>
   );
 }
