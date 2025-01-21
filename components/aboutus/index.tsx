@@ -1,5 +1,8 @@
 import React from "react";
 import PreviousYear from "../ui/Graphics/PreviousYear";
+import { Button } from "../ui/button";
+import Link from "next/link";
+import { LinkPreview } from "../ui/link-preview";
 
 const AboutUs: React.FC = () => {
   return (
@@ -8,16 +11,9 @@ const AboutUs: React.FC = () => {
       className="relative flex items-center justify-center w-full py-20 px-8 relative"
       // style={{ backgroundImage: "url('/BackgroundEffects.png')" }}
     >
-     
-
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="flex justify-center">
-          {/* <img
-            src="/Group-15.png"
-            alt="Abstract Shapes"
-            className="w-full md:w-3/4 lg:w-2/3 drop-shadow-lg"
-          /> */}
-          <PreviousYear/>
+          <PreviousYear />
         </div>
 
         <div className="text-white">
@@ -28,21 +24,35 @@ const AboutUs: React.FC = () => {
             </span>
           </h2>
 
-          <p className="mt-6 text-lg leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
+          <div className="mt-6 text-lg leading-relaxed">
+            <span>DroidFest is the flagship event of the </span>
+            <span>
+              <LinkPreview
+                url="https://www.meetup.com/Kotlin-Kolkata-UG"
+                className="font-semibold text-magenta hover:underline"
+              >
+                Kotlin User Group, Kolkata
+              </LinkPreview>
+            </span>
+            <span>
+              , designed to celebrate and elevate the Android and Kotlin
+              developer community. Since its inception, DroidFest has become a
+              hub for innovation, learning, and collaboration, bringing together
+              students, professionals, and tech enthusiasts to shape the future
+              of mobile and backend development.
+            </span>
+          </div>
           <p className="mt-4 text-lg leading-relaxed">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
+            Our mission is to inspire and empower developers by providing a
+            platform to explore cutting-edge technologies, share knowledge, and
+            connect with industry leaders. At DroidFest 2025, we are committed
+            to fostering a thriving ecosystem that drives creativity, expertise,
+            and community engagement in the world of Kotlin and Android
+            development.
           </p>
-          <button className="mt-8 px-8 py-3 bg-purple-500 text-white font-semibold text-lg rounded-full hover:bg-purple-600">
+          <Button className="mt-8 p-6 bg-purple-500 text-white font-semibold text-lg rounded-full hover:bg-purple-600">
             Read more
-          </button>
+          </Button>
         </div>
       </div>
     </section>
