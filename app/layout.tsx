@@ -31,7 +31,7 @@ export default function RootLayout({
         className={`${inter.className} ${inter.variable} ${roboto.variable} antialiased w-full h-full min-h-[100dvh] flex flex-col text-body`}
       >
       <>
-        <Header />
+       <Header />
         {children}
       </>
       </body>
