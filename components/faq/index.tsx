@@ -22,7 +22,7 @@ export default function FAQSection() {
           {faqs.map((faq, index) => (
             <div key={index} className="relative">
               {/* Vertical line decoration */}
-              <div className="absolute left-0 top-0 w-px h-full bg-purple-500/20" />
+              <div className="absolute left-0 top-0 w-px h-full bg-purple-300/40" />
 
               <div className="pl-6">
                 <button
