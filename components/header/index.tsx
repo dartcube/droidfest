@@ -7,7 +7,7 @@ import { Button } from "../ui/button";
 export const Header: React.FC = () => {
   return (
     <header className="flex items-center justify-between absolute top-0 left-0 w-full px-6 md:px-10 py-4 z-50">
-      <Link href="/" className="py-4 px-6 bg-black rounded-full">
+      <Link href="/" className="md:py-4 md:px-6 md:bg-black md:rounded-full">
         <BrandLogo className="h-8 justify-start" />
       </Link>
       <nav className="hidden lg:flex items-center gap-10">
