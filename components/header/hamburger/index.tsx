@@ -46,13 +46,13 @@ export const HamburgerMenu: React.FC = () => {
         className={`${isMenuOpen ? "opacity-100" : "pointer-events-none opacity-0"} 
         flex md:hidden overflow-hidden transition-opacity ease-in-out duration-500 
         flex-col items-end text-right absolute top-14 right-6 w-fit bg-dark 
-        bg-opacity-50 text-light rounded-md px-4 py-4 z-40 text-title !font-normal`}
+        bg-opacity-50 text-light  px-4 py-4 z-40 text-title !font-normal rounded-xl`}
       >
         <ul className="flex flex-col gap-4">
           <li>
             <Link
               href={'/'}
-              className="pr-2"
+              className=" py-2 rounded-xl pr-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Home
@@ -62,7 +62,7 @@ export const HamburgerMenu: React.FC = () => {
             <li key={name}>
               <Link
                 href={href}
-                className="pr-2"
+                className=" py-2 rounded-xl pr-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {name}
@@ -72,7 +72,7 @@ export const HamburgerMenu: React.FC = () => {
           <li>
             <Link
               href="#"
-              className="px-4 bg-blue text-light"
+              className=" py-2 rounded-xl px-4 bg-blue text-light"
               onClick={() => setIsMenuOpen(false)}
             >
               Get Tickets
