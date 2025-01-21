@@ -20,7 +20,7 @@ function index() {
             </div>
           </div>
           <div className="text-heading-subtext text-white/75 portrait:text-center portrait:text-sm">
-            Learn, network, and explore— where students and professionals unite
+            Learn, network, and explore — where students and professionals unite
             to shape the future of Kotlin and Android development.
           </div>
         </div>

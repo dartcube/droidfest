@@ -1,4 +1,5 @@
 import React from "react";
+import PreviousYear from "../ui/Graphics/PreviousYear";
 
 const AboutUs: React.FC = () => {
   return (
@@ -11,11 +12,12 @@ const AboutUs: React.FC = () => {
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="flex justify-center">
-          <img
+          {/* <img
             src="/Group-15.png"
             alt="Abstract Shapes"
             className="w-full md:w-3/4 lg:w-2/3 drop-shadow-lg"
-          />
+          /> */}
+          <PreviousYear/>
         </div>
 
         <div className="text-white">
