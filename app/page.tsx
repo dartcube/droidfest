@@ -2,6 +2,7 @@ import Link from "next/link";
 import AboutUs from "../components/aboutus";
 import Speaker from "../components/speaker";
 import Partners from "../components/partners";
+import FAQSection from "@/components/faq";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
       <AboutUs />
       <Partners/>
       <Speaker />
+      <FAQSection/>
     </div>
   );
 }
