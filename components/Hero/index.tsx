@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Index() {
   return (
-    <main className="flex items-center justify-center h-screen w-full bg-gradient-to-br from-gray-900 via-purple-900 to-black px-8 md:px-16">
+    <main className="flex items-center justify-center h-screen w-full bg-gradient-to-br from-gray-900 via-purple-900 to-black px-8 md:px-16 mt-24">
       <div className="max-w-7xl w-full flex flex-col md:flex-row items-center justify-between gap-10">
        
         <div className="flex flex-col gap-6 max-w-lg text-left">
