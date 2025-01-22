@@ -1,40 +1,47 @@
 import Image from "next/image";
 import Link from "next/link";
 
-function index() {
+export default function Index() {
   return (
-    <main className="flex flex-col h-[100dvh] w-full py-12 px-4 md:py-24 md:px-20 items-start justify-center md:justify-end">
-
-      <div className="content max-w-screen-lg w-full sm:pr-20 flex flex-col gap-8">
-        <div className="flex flex-col gap-2">
-          <div className="hero flex flex-col gap portrait:text-center w-full portrait:items-center">
-            <Image
-              width={300}
-              alt="DroidFest 2025"
-              height={300}
-              src="/kug-mascot.webp"
-            />
-            <h1 className="text-display">DroidFest 2025</h1>
-            <div className="text-body font-roboto">
-              Kolkata, India - Venue and Date TBD
-            </div>
-          </div>
-          <div className="text-heading-subtext text-white/75 portrait:text-center portrait:text-sm">
+    <main className="flex items-center justify-center h-screen w-full bg-gradient-to-br from-gray-900 via-purple-900 to-black px-8 md:px-16">
+      <div className="max-w-7xl w-full flex flex-col md:flex-row items-center justify-between gap-10">
+       
+        <div className="flex flex-col gap-6 max-w-lg text-left">
+          <h1 className="text-6xl md:text-6xl font-extrabold text-white leading-tight">
+            DroidFest 2025
+          </h1>
+          <p className="text-body font-roboto text-lg md:text-xl">Kolkata, India - March 26</p>
+          <p className="text-heading-subtext text-white/75 text-sm md:text-base">
             Learn, network, and explore — where students and professionals unite
             to shape the future of Kotlin and Android development.
+          </p>
+          <div className="flex flex-wrap gap-4 mt-6">
+            <Link href="#" className="btn-primary py-3 px-6 text-lg md:text-xl">
+              Get Tickets
+            </Link>
+            <Link href="#" className="btn-secondary py-3 px-6 text-lg md:text-xl">
+              Choose a Workshop
+            </Link>
           </div>
         </div>
-        <div className="ctas flex flex-wrap gap-4 portrait:justify-center portrait:items-center">
-          <Link href="#" className="btn-primary py-2 px-4">
-            Get Tickets
-          </Link>
-          <Link href="#" className="btn-secondary py-2 px-4">
-            Apply to Speak
-          </Link>
+
+       
+        <div className="flex flex-col items-center gap-6 mt-8 md:mt-0">
+          <Image
+            src="/kug-mascot.webp"
+            alt="DroidFest Mascots"
+            width={500}
+            height={300}
+            priority
+            className="w-auto h-auto"
+          />
+          <p className="text-base text-white/60 max-w-sm text-center">
+            The premier flagship event of Kotlin User Group, Kolkata is back!
+            Join us for a day of innovation, expertise, and collaboration in
+            Android and Kotlin development.
+          </p>
         </div>
       </div>
     </main>
   );
 }
-
-export default index;
