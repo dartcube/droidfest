@@ -5,28 +5,42 @@ export interface FAQItem {
 
 export const faqs: FAQItem[] = [
   {
-    question: "What services do you offer?",
+    question: "What is DroidFest 2025?",
     answer:
-      "We offer a comprehensive suite of digital solutions including web development, mobile app development, cloud services, and digital transformation consulting. Our team specializes in creating custom solutions tailored to your specific business needs.",
+      "DroidFest 2025 is the premier flagship event of the Kotlin User Group, Kolkata, bringing together students and professionals to explore, learn, and network in the realm of Kotlin and Android development.",
   },
   {
-    question: "How do I get started with your service?",
+    question: "When and where is DroidFest 2025 happening?",
     answer:
-      "Getting started is simple! Just reach out to our team through the contact form or schedule a consultation. We'll discuss your requirements, provide a detailed proposal, and guide you through every step of the process.",
+      "The event is scheduled for March 26, 2025, in Kolkata, India. The exact venue will be announced soon.",
   },
   {
-    question: "What is your typical project timeline?",
-    answer:
-      "Project timelines vary depending on scope and complexity. Typically, small projects take 4-6 weeks, while larger projects may take 3-6 months. We'll provide you with a detailed timeline during our initial consultation.",
+    question: "Is this a paid event?",
+    answer: "Yes, DroidFest 2025 is a paid event. Ticket pricing and details will be available closer to the date.",
   },
   {
-    question: "Do you offer support after project completion?",
+    question: "Who can attend DroidFest 2025?",
     answer:
-      "Yes, we provide comprehensive post-project support and maintenance services. Our team is always available to help with updates, improvements, and any technical issues that may arise.",
+      "DroidFest is open to everyone, including students, professionals, and enthusiasts who are passionate about Kotlin and Android development.",
   },
   {
-    question: "What technologies do you work with?",
+    question: "What can I expect at DroidFest 2025?",
     answer:
-      "We work with a wide range of modern technologies including React, Next.js, Node.js, Python, AWS, and more. Our team stays up-to-date with the latest technological advances to ensure we deliver cutting-edge solutions.",
+      "You can expect a day filled with innovation, expertise, and collaboration, including keynote sessions, technical workshops, networking opportunities, and more.",
+  },
+  {
+    question: "How can I register for the event?",
+    answer:
+      "Registration details will be shared soon. Stay tuned to our official communication channels for updates.",
+  },
+  {
+    question: "Will there be opportunities to network with industry professionals?",
+    answer:
+      "Yes, DroidFest 2025 provides a unique platform to connect with industry leaders, developers, and peers from the Kotlin and Android community.",
+  },
+  {
+    question: "Are there any sponsorship or partnership opportunities?",
+    answer:
+      "Yes, we welcome sponsorships and partnerships. For more information, please reach out to us via our official contact channels.",
   },
 ];
