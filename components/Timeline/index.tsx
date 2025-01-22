@@ -3,7 +3,9 @@ import { timelineEvents } from '@/consts/TimelineEvents';
 
 const Timeline = () => {
   return (
-    <div className="relative flex flex-col items-center w-full py-16 bg-gray-900">
+    <div 
+    id="workshop"
+    className="relative flex flex-col items-center w-full py-16 bg-gray-900">
      
       <h2 className="text-5xl font-bold leading-tight text-center mb-12">
         <span className="text-white">Our</span>{" "}

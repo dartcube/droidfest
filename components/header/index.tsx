@@ -23,7 +23,7 @@ export const Header: React.FC = () => {
           <li>
             <Button asChild variant={"link"}>
 
-            <Link href="/team" >
+            <Link href="#team" >
               Team
             </Link>
             </Button>
@@ -31,7 +31,7 @@ export const Header: React.FC = () => {
           <li>
             <Button asChild variant={"link"}>
 
-            <Link href="/workshops" >
+            <Link href="#workshop" >
               Workshops
             </Link>
             </Button>
