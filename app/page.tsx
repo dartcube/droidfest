@@ -5,17 +5,19 @@ import FAQSection from "@/components/faq";
 import Hero from "@/components/Hero";
 import VectorLayer from "@/components/VectorLayer";
 import Footer from "@/components/footer";
+import Team from "@/components/team/team";
 
 export default function Home() {
   return (
     <div className="flex flex-col h-full flex-grow overflow-x-hidden overflow-y-hidden">
       <VectorLayer />
-      <Hero/>
+      <Hero />
       <AboutUs />
-      <Partners/>
+      <Partners />
       <Speaker />
-      <FAQSection/>
-      <Footer/>
+      <Team />
+      <FAQSection />
+      <Footer />
     </div>
   );
 }
