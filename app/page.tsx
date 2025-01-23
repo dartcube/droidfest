@@ -12,10 +12,11 @@ export default function Home() {
       <VectorLayer />
       <Hero />
       <AboutUs />
-      <Partners />
+      <Timeline/>
+      <Partners/>
       <Speaker />
+      <Team />
       <FAQSection />
-
       <Footer />
     </div>
   );
