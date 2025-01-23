@@ -1,39 +1,39 @@
 export const timelineEvents = [
     { 
       id: 1, 
-      title: 'Intro to Kotlin', 
-      description: 'Workshop introducing Kotlin programming language basics. Given by Speaker 1.', 
-      time: '9:00 AM - 10:30 AM' 
+      title: 'Website Live', 
+      description: 'Droidfest Website went live', 
+      time: '26th January' 
     },
     { 
       id: 2, 
-      title: 'Kotlin Syntax and Structure', 
-      description: 'Learn the fundamentals of Kotlin syntax, structure, and data types.', 
-      time: '10:30 AM - 12:00 PM' 
+      title: 'Call For Speaker', 
+      description: 'Calling all Enthuastic Speaker to apply for our Event', 
+      time: 'Date to be Announced' 
     },
     { 
       id: 3, 
-      title: 'Advanced Kotlin Features', 
-      description: 'A deep dive into Kotlin features such as extension functions, coroutines, and lambda expressions.', 
-      time: '12:00 PM - 1:30 PM' 
+      title: '1st Phase Ticket', 
+      description: 'Early Bird get the Worm get your Ticket for Amazing Sessions & Swags', 
+      time: 'Date to be Announced' 
     },
     { 
       id: 4, 
-      title: 'Lunch Break', 
-      description: 'A 1-hour break for lunch. Enjoy some networking and relaxation time!', 
-      time: '1:30 PM - 2:30 PM' 
+      title: '2nd Phase Ticket', 
+      description: 'Hurry up Guys Tickets are ending Soon', 
+      time: 'Date to be Announced' 
     },
     { 
       id: 5, 
-      title: 'Hands-on Kotlin Coding', 
-      description: 'A practical coding session where participants will build a simple Kotlin application together.', 
-      time: '2:30 PM - 4:00 PM' 
+      title: '3rd Phase Ticket', 
+      description: 'Last Chance to get your ticket get them fast before we ran out!', 
+      time: 'Date to be Announced' 
     },
     { 
       id: 6, 
-      title: 'Kotlin Best Practices & Q&A', 
-      description: 'Learn best practices in Kotlin development and participate in a Q&A session with experts.', 
-      time: '4:00 PM - 5:00 PM' 
+      title: 'Events Date & Agenda ', 
+      description: 'D-Day of the real Evnet stay tuned for more Details', 
+      time: 'Date to be Announced' 
     },
   ];
   
