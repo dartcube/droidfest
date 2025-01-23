@@ -17,10 +17,10 @@ export default function Index() {
           </p>
           <div className="flex flex-wrap gap-4 mt-6">
             <Link href="#" className="btn-primary py-3 px-6 text-lg md:text-xl">
-              Get Tickets
+              Releasing Ticket Soon
             </Link>
             <Link href="#" className="btn-secondary py-3 px-6 text-lg md:text-xl">
-              Choose a Workshop
+              Apply for Speaker
             </Link>
           </div>
         </div>
