@@ -11,7 +11,7 @@ const AboutUs: React.FC = () => {
       // style={{ backgroundImage: "url('/BackgroundEffects.png')" }}
     >
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        <div className="flex justify-center">
+        <div className="flex justify-center items-center my-32 md:my-0">
           <PreviousYear />
         </div>
 

@@ -25,7 +25,7 @@ const roundedStyles = [
 
 function PreviousYear() {
   return (
-    <div className="relative" title="Previous Year Glimpse">
+    <div className="relative portrait:scale-[0.6] left-6 " title="Previous Year Glimpse">
       {PreviousYearImageUrls.map((url, index) => (
         <div key={index} className={`${imageStyles[index]} ${roundedStyles[index]}`}>
           <Image
