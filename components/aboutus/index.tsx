@@ -1,7 +1,6 @@
 import React from "react";
 import PreviousYear from "../ui/Graphics/PreviousYear";
 import { Button } from "../ui/button";
-import Link from "next/link";
 import { LinkPreview } from "../ui/link-preview";
 
 const AboutUs: React.FC = () => {

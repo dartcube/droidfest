@@ -10,12 +10,13 @@ export default function Home() {
   return (
     <div className="flex flex-col h-full flex-grow overflow-x-hidden overflow-y-hidden">
       <VectorLayer />
-      <Hero/>
+      <Hero />
       <AboutUs />
-      <Partners/>
+      <Partners />
       <Speaker />
-      <FAQSection/>
-      <Footer/>
+      <FAQSection />
+
+      <Footer />
     </div>
   );
 }

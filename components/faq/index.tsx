@@ -4,6 +4,7 @@ import { faqs } from "@/consts/FAQ"
 import { motion, AnimatePresence } from "framer-motion"
 import { ChevronDown } from "lucide-react"
 import { useState } from "react"
+import { SplineScene } from "../ui/splite"
 
 
 
@@ -11,7 +12,7 @@ export default function FAQSection() {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null)
 
   return (
-    <div className="p-6 flex items-center justify-center">
+    <div className="p-6 flex flex-col items-center justify-center">
       <div className="max-w-3xl w-full space-y-8">
         <div className="text-center space-y-2">
           <h1 className="text-6xl font-bold bg-text-gradient bg-clip-text text-transparent">FAQs</h1>
@@ -53,6 +54,10 @@ export default function FAQSection() {
           ))}
         </div>
       </div>
+      <SplineScene
+        scene="https://prod.spline.design/TPMa0ZmXBLI6fFq4/scene.splinecode"
+        className="w-full h-full max-h-96 mt-8 max-w-3xl"
+      />
     </div>
   )
 }
