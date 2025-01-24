@@ -11,7 +11,7 @@ const navItems: Array<{
   { name: "Team", href: "#team" },
   { name: "Workshops", href: "#workshop" },
   { name: "For partners", href: "#partners" },
-  { name: "For speakers", href: "#speakers" },
+  // { name: "For speakers", href: "#speakers" },
 ];
 
 export const HamburgerMenu: React.FC = () => {
