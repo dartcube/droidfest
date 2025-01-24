@@ -54,10 +54,10 @@ export const Header: React.FC = () => {
           </li>
           <li>
             <Button asChild variant={"secondary"}>
-
+{/* 
             <Link href="#" className="btn-primary hover:bg-black">
               Get Tickets
-            </Link>
+            </Link> */}
             </Button>
           </li>
         </ul>

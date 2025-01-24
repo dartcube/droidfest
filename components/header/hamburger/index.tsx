@@ -70,13 +70,13 @@ export const HamburgerMenu: React.FC = () => {
             </li>
           ))}
           <li>
-            <Link
+            {/* <Link
               href="#"
               className=" py-2 rounded-xl px-4 bg-blue text-light"
               onClick={() => setIsMenuOpen(false)}
             >
               Get Tickets
-            </Link>
+            </Link> */}
           </li>
         </ul>
       </nav>
