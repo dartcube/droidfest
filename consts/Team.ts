@@ -222,8 +222,8 @@ export const team: TeamMember[] = [
     instagram: "https://www.instagram.com/codefit.io"
   },
   {
-    firstName: "Ankit",
-    lastName: "Kumar Gupta",
+    firstName: "Ankit Kumar",
+    lastName: "Gupta",
     role: "Anchoring team",
     image: "/team/ankit-kumar-gupta.png",
     linkedin: "https://www.linkedin.com/in/ankit-kumar-gupta-6ba724266/",

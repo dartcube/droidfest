@@ -20,6 +20,7 @@ export default function Team() {
             role={member.role}
             image={member.image}
             linkedin={member.linkedin}
+            instagram={member.instagram}
             twitter={member.twitter}
             github={member.github}
             website={member.website}

@@ -1,7 +1,7 @@
 "use client";
 import { motion, useInView } from 'framer-motion';
-import React, { useRef } from 'react';
-import { FaLinkedin, FaTwitter, FaGithub, FaGlobe } from 'react-icons/fa';
+import React, { use, useRef } from 'react';
+import { FaLinkedin, FaTwitter, FaGithub, FaGlobe, FaInstagram } from 'react-icons/fa';
 
 export default function TeamCard({
   firstName,
@@ -10,6 +10,7 @@ export default function TeamCard({
   image,
   linkedin,
   twitter,
+  instagram,
   github,
   website,
 }: {
@@ -19,24 +20,26 @@ export default function TeamCard({
   image: string;
   linkedin?: string;
   twitter?: string;
+  instagram?: string;
   github?: string;
   website?: string;
 }) {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
-
+  const isInView = useInView(ref);
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
   return (
     <div
+      ref={ref}
       className="relative flex flex-col items-center text-center w-38 h-[22rem] bg-zinc-500 backdrop-blur-sm bg-opacity-20 rounded-2xl border-[1px] shadow-md border-white/10 group overflow-hidden select-none"
     >
       <motion.img
         src={image}
         alt={`${firstName} ${lastName}`}
-        className="object-cover h-full w-full filter grayscale"
+        className={`object-cover h-full w-full filter grayscale ${isInView ? 'filter-none md:filter-none lg:filter-none' : ''}`}
         height={200}
         width={200}
         initial={{ filter: 'grayscale(100%)' }}
-        animate={isInView ? { filter: 'none', transition: { duration: 3 } } : {}}
+        animate={isInView && isMobile ? { filter: 'none', transition: { duration: 3 } } : {}}
         whileHover={{ scale: 1.05, filter: 'none', transition: { duration: 0.5 } }}
         whileTap={{ scale: 1, filter: 'grayscale(100%)', transition: { duration: 0.5 } }}
       />
@@ -49,7 +52,7 @@ export default function TeamCard({
         <h3 className="text-3xl font-bold text-center leading-none uppercase">
           {firstName}
         </h3>
-        <h3 className="text-3xl font-bold text-center mb-2 leading-none uppercase">
+        <h3 className="text-2xl font-bold text-center mb-2 leading-none uppercase ">
           {lastName}
         </h3>
       </div>
@@ -83,6 +86,16 @@ export default function TeamCard({
             className="hover:text-gray-400 transition duration-300"
           >
             <FaGithub size={24} />
+          </a>
+        )}
+        {instagram && (
+          <a
+            href={instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-400 transition duration-300"
+          >
+            <FaInstagram size={24} />
           </a>
         )}
         {website && (
