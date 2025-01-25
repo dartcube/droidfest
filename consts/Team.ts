@@ -99,7 +99,7 @@ export const team: TeamMember[] = [
     image: "/team/subhadip-saha.png",
     linkedin: "https://www.linkedin.com/in/subhadipsahaofficial",
     twitter: "https://twitter.com/SubhadipDev",
-    github: "https://twitter.com/SubhadipDev",
+    github: "https://github.com/subh05sus",
     instagram: "https://www.instagram.com/subh05sus_"
   },
   {
