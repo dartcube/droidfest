@@ -1,13 +1,13 @@
+import React from 'react';
+import TeamCard from './team-card';
+import { team } from '@/consts/Team';
 
-import React from 'react'
-import TeamCard from './team-card'
-import { team } from '@/consts/Team'
 export default function Team() {
   return (
     <section
       id="team"
-      className="relative 
-    py-16 px-8 bg-cover bg-center bg-no-repeat">
+      className="relative py-16 px-8 bg-cover bg-center bg-no-repeat"
+    >
       <h2 className="text-5xl font-bold text-center text-transparent bg-clip-text bg-text-gradient mb-12">
         Meet Our Team
       </h2>
@@ -17,10 +17,15 @@ export default function Team() {
             key={index}
             firstName={member.firstName}
             lastName={member.lastName}
-            role={member.role} />
-        ))
-        }
+            role={member.role}
+            image={member.image}
+            linkedin={member.linkedin}
+            twitter={member.twitter}
+            github={member.github}
+            website={member.website}
+          />
+        ))}
       </div>
     </section>
-  )
+  );
 }
