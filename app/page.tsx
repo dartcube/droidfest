@@ -14,9 +14,10 @@ export default function Home() {
       <VectorLayer />
       <Hero />
       <AboutUs />
-      <Timeline/>
-      <Partners/>
+      <Timeline />
+      <Partners />
       {/* <Speaker /> */}
+      <Team isOrganiser={true} />
       <Team />
       <FAQSection />
       <Footer />
