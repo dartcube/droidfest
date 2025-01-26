@@ -1,30 +1,30 @@
 export const partners = [
     {
-        title: "Partner One",
+        title: "91.9 Friends FM",
         src: "/image 115.png"
     },
     {
-        title: "Partner Two",
+        title: "Red Bull",
         src: "/image 117.png"
     },
     {
-        title: "Partner Three",
+        title: "Google Dev libary",
         src: "/image 119.png"
     },
     {
-        title: "Partner Four",
+        title: "Quiz Hub",
         src: "/image 120.png"
     },
     {
-        title: "Partner Five",
+        title: "Hoichoi",
         src: "/image 121.png"
     },
     {
-        title: "Partner Six",
+        title: "Jet Brains ",
         src: "/jb_beam 2.png"
     },
     {
-        title: "Partner Seven",
+        title: "EduGraph",
         src: "/image 116.png"
     }
     // {
