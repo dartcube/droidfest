@@ -1,42 +1,42 @@
 export const partners = [
     {
         title: "Partner One",
-        src: "/demo-logo.png"
+        src: "/image 115.png"
     },
     {
         title: "Partner Two",
-        src: "/demo-logo.png"
+        src: "/image 117.png"
     },
     {
         title: "Partner Three",
-        src: "/demo-logo.png"
+        src: "/image 119.png"
     },
     {
         title: "Partner Four",
-        src: "/demo-logo.png"
+        src: "/image 120.png"
     },
     {
         title: "Partner Five",
-        src: "/demo-logo.png"
+        src: "/image 121.png"
     },
     {
         title: "Partner Six",
-        src: "/demo-logo.png"
+        src: "/jb_beam 2.png"
     },
     {
         title: "Partner Seven",
-        src: "/demo-logo.png"
-    },
-    {
-        title: "Partner Eight",
-        src: "/demo-logo.png"
-    },
-    {
-        title: "Partner Nine",
-        src: "/demo-logo.png"
-    },
-    {
-        title: "Partner Ten",
-        src: "/demo-logo.png"
+        src: "/image 116.png"
     }
+    // {
+    //     title: "Partner Eight",
+    //     src: "/demo-logo.png"
+    // },
+    // {
+    //     title: "Partner Nine",
+    //     src: "/demo-logo.png"
+    // },
+    // {
+    //     title: "Partner Ten",
+    //     src: "/demo-logo.png"
+    // }
 ];
