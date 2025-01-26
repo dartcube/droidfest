@@ -2,23 +2,21 @@ import { partners } from "@/consts/Partners";
 import React from "react";
 import Marquee from "../ui/marquee";
 import Image from "next/image";
+import Link from "next/link";
 
 const Partners: React.FC = () => {
   return (
     <section
       id="partners"
-      className="relative
-      py-16 px-8 portrait:px-0 w-[-webkit-fill-available] max-w-7xl mx-auto"
-      // bg-gradient-to-b from-[#121212] to-[#1a1a1a]
-      // style={{ backgroundImage: "url('/BackgroundEffects.png')" }}
+      className="relative py-16 px-8 portrait:px-0 w-[-webkit-fill-available] max-w-7xl mx-auto"
     >
-      <h2 className="text-5xl  font-bold text-center text-transparent bg-clip-text bg-text-gradient mb-12">
-        Our Partners
+      <h2 className="text-5xl font-bold text-center text-transparent bg-clip-text bg-text-gradient mb-12">
+        Previous Partners
       </h2>
       <div className="relative">
         <Marquee
           pauseOnHover
-          className="[--duration:20s] [--gap:60px] w-auto mt-6 relative grayscale hover:grayscale-0  portrait:grayscale-0"
+          className="[--duration:20s] [--gap:60px] w-auto mt-6 relative grayscale hover:grayscale-0 portrait:grayscale-0"
         >
           {partners.map((partner, index) => (
             <Image
@@ -31,8 +29,19 @@ const Partners: React.FC = () => {
             />
           ))}
         </Marquee>
-        {/* <div className="absolute right-0 h-full bg-gradient-to-l from-black to-transparent top-0 bottom-0 w-32 portrait:w-8 z-50"></div>
-        <div className="absolute left-0 h-full bg-gradient-to-r from-black to-transparent top-0 bottom-0 w-32 portrait:w-8 z-50"></div> */}
+      </div>
+
+      <div className="flex flex-col items-center mt-12">
+        <p className="text-center text-lg text-gray-700 mb-4">
+          Wanna be a part of our journey? Help us in making it even better!
+        </p>
+        <Link href="https://docs.google.com/forms/d/13x3dER7VpNQh1idZY2yBl0FShrUO5-Y9e7ZSvIz_Tbg/viewform?edit_requested=true" legacyBehavior>
+          <a
+            className="mt-8 p-6 bg-purple-500 text-white font-semibold text-lg rounded-full hover:bg-purple-600"
+          >
+            Join Us
+          </a>
+        </Link>
       </div>
     </section>
   );
