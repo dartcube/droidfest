@@ -10,7 +10,7 @@ export default function Index() {
           <h1 className="text-6xl md:text-6xl font-extrabold text-white leading-tight">
             DroidFest 2025
           </h1>
-          <p className="text-body font-roboto text-lg md:text-xl">Kolkata, India</p>
+          <p className="text-body font-roboto text-lg md:text-xl">Kolkata, India- March 8</p>
           <p className="text-heading-subtext text-white/75 text-sm md:text-base">
             Learn, network, and explore — where students and professionals unite
             to shape the future of Kotlin and Android development.
