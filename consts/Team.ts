@@ -82,7 +82,7 @@ export const team: TeamMember[] = [
     instagram: "https://www.instagram.com/thississsssdb__?igsh=dTU0Z2preXRocW00"
   },
   {
-    firstName: "Rupsa",
+    firstName: "Rupsha",
     lastName: "Das",
     role: "PR and Outreach team",
     image: "/team/rupsa-das.webp",
