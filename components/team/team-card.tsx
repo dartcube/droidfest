@@ -45,7 +45,7 @@ export default function TeamCard({
       />
 
       <div
-        className="absolute bottom-4 left-4 flex flex-col items-start"
+        className="absolute sm:bottom-4 left-4 flex flex-col items-start bottom-8"
         style={{ textShadow: '1px 1px 2px #834EFD' }}
       >
         <p className="text-gray-600 text-center text-sm text-white/80 uppercase">{role}</p>
