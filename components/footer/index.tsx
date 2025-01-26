@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
     <footer className=" bg-transparent  text-white py-6">
       <div className="container mx-auto text-center flex w-full flex-col items-center gap-3">
         <BrandLogo className={"w-64"} />
-        <Button className="border rounded-full">Contact Us</Button>
+        {/* <Button className="border rounded-full">Contact Us</Button> */}
         <div className="h-0.5 w-full bg-white/20 my-4" />
         <div className="flex justify-between items-center w-full flex-col md:flex-row gap-4">
           <p className="text-sm">© 2021 DroidFest 2025. All rights reserved.</p>
