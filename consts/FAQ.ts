@@ -12,7 +12,7 @@ export const faqs: FAQItem[] = [
   {
     question: "When and where is DroidFest 2025 happening?",
     answer:
-      "The event is scheduled for March 26, 2025, in Kolkata, India. The exact venue will be announced soon.",
+      "TBD",
   },
   {
     question: "Is this a paid event?",
