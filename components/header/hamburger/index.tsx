@@ -9,7 +9,7 @@ const navItems: Array<{
 }> = [
   { name: "About Us", href: "#about-us" },
   { name: "Team", href: "#team" },
-  { name: "Workshops", href: "#workshop" },
+  { name: "Timeline", href: "#workshop" },
   { name: "For partners", href: "#partners" },
   // { name: "For speakers", href: "#speakers" },
 ];
