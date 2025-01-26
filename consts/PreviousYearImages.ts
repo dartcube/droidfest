@@ -1,9 +1,9 @@
 export const PreviousYearImageUrls = [
-    "/AIV01939.JPG",
-    "/AIV02121.JPG",
-    "/AIV02153.JPG",
-    "/AIV02127.JPG",
-    "/AIV02043.JPG",
-    "/AIV02113.JPG",
-    "/AIV02115.JPG",
+    "/AIV01939.webp",
+    "/AIV02121.webp",
+    "/AIV02153.webp",
+    "/AIV02127.webp",
+    "/AIV02043.webp",
+    "/AIV02113.webp",
+    "/AIV02115.webp",
 ];
