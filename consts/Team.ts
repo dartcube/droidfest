@@ -191,6 +191,16 @@ export const team: TeamMember[] = [
     instagram: "https://www.instagram.com/authentic_ahel?igsh=M3dvNjdlc3c3NjZj"
   },
   {
+    firstName: "Arup",
+    lastName: "Matabbar",
+    role: "Design team",
+    image: "/team/arup-matabbar.png",
+    linkedin: "https://www.linkedin.com/in/arup-matabber/",
+    github: "https://github.com/arup-matabber",
+    twitter: "https://x.com/_Arup18_",
+    instagram: "https://www.instagram.com/_arup.18_/"
+  },
+  {
     firstName: "Srijan",
     lastName: "Paul",
     role: "Design team",
