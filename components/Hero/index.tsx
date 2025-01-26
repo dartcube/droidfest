@@ -10,7 +10,7 @@ export default function Index() {
           <h1 className="text-6xl md:text-6xl font-extrabold text-white leading-tight">
             DroidFest 2025
           </h1>
-          <p className="text-body font-roboto text-lg md:text-xl">Kolkata, India - March 26</p>
+          <p className="text-body font-roboto text-lg md:text-xl">Kolkata, India</p>
           <p className="text-heading-subtext text-white/75 text-sm md:text-base">
             Learn, network, and explore — where students and professionals unite
             to shape the future of Kotlin and Android development.
@@ -19,9 +19,9 @@ export default function Index() {
             <Link href="#" className="btn-primary py-3 px-6 text-lg md:text-xl">
               Releasing Ticket Soon
             </Link>
-            <Link href="#" className="btn-secondary py-3 px-6 text-lg md:text-xl">
+            {/* <Link href="#" className="btn-secondary py-3 px-6 text-lg md:text-xl">
               Apply for Speaker
-            </Link>
+            </Link> */}
           </div>
         </div>
 
