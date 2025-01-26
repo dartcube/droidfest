@@ -32,7 +32,7 @@ export const timelineEvents = [
     { 
       id: 6, 
       title: 'Events Date & Agenda ', 
-      description: 'D-Day of the real Evnet stay tuned for more Details', 
+      description: 'D-Day of the real Event stay tuned for more Details', 
       time: 'Date to be Announced' 
     },
   ];

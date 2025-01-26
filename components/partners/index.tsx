@@ -31,13 +31,13 @@ const Partners: React.FC = () => {
         </Marquee>
       </div>
 
-      <div className="flex flex-col items-center mt-12">
-        <p className="text-center text-lg text-gray-700 mb-4">
+      <div className="flex flex-wrap items-center justify-center mt-12 gap-4">
+        <p className="text-lg text-gray-700 text-center sm:text-left">
           Wanna be a part of our journey? Help us in making it even better!
         </p>
         <Link href="https://docs.google.com/forms/d/13x3dER7VpNQh1idZY2yBl0FShrUO5-Y9e7ZSvIz_Tbg/viewform?edit_requested=true" legacyBehavior>
           <a
-            className="mt-8 p-6 bg-purple-500 text-white font-semibold text-lg rounded-full hover:bg-purple-600"
+            className="px-6 py-2 bg-purple-500 text-white font-semibold text-sm rounded-full hover:bg-purple-600 transition-transform"
           >
             Join Us
           </a>
