@@ -11,11 +11,32 @@ export interface TeamMember {
 }
 
 export const team: TeamMember[] = [
-  // Organisers
+    //Organisers
+  {
+    firstName: "Indranil",
+    lastName: "Dutta",
+    role: "Organiser",
+    image: "/team/indranil-dutta.png",
+    linkedin: "https://www.linkedin.com/in/indranil-dutta-06"
+  },
+  {
+    firstName: "Atri",
+    lastName: "Das",
+    role: "Organiser",
+    image: "/team/atri-das.png",
+    linkedin: "https://www.linkedin.com/in/atri-samrat-das"
+  }, {
+    firstName: "Akash",
+    lastName: "Majumder",
+    role: "Organiser",
+    image: "/team/akash-majumder.png",
+    linkedin: "https://www.linkedin.com/in/akash-kumar-majumder-62b384196"
+  },
+  //Event Organisers
   {
     firstName: "Supratim",
     lastName: "Dhara",
-    role: "Organiser",
+    role: "Event Organiser",
     image: "/team/supratim-dhara.webp",
     linkedin: "https://www.linkedin.com/in/supratimdhara/",
     twitter: "https://x.com/supratimtwt",
@@ -25,7 +46,7 @@ export const team: TeamMember[] = [
   {
     firstName: "Shreya",
     lastName: "Moulick",
-    role: "Organiser",
+    role: "Event Organiser",
     image: "/team/shreya-moulik.webp",
     linkedin: "https://www.linkedin.com/in/shreyamoulick",
     twitter: "https://twitter.com/shreya_moulick",
@@ -35,7 +56,7 @@ export const team: TeamMember[] = [
   {
     firstName: "Tithi",
     lastName: "Bose",
-    role: "Organiser",
+    role: "Event Organiser",
     image: "/team/tithi-bose.webp",
     linkedin: "www.linkedin.com/in/tithib",
     twitter: "www.x.com/TithiBose7",
