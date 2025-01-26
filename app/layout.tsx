@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import {Header} from "@/components/header";
@@ -15,9 +16,22 @@ const roboto = Roboto_Mono({
 
 export const metadata: Metadata = {
   title: "Droidfest 2025",
-  description: "Join us at Droidfest, Kolkata's premier conference for Kotlin and Android developers. Engage in knowledge exchange, networking, and skill enhancement with fellow enthusiasts and professionals.",
-  keywords: ["Droidfest", "Kotlin", "Android", "Developer Conference", "Kolkata", "Programming", "Tech Event", "Software Development", "Kotlin User Group", "Networking", "Coding Workshop"],
-  authors: [{name: "KUG Kolkata Dev Team"}],
+  description:
+    "Join us at Droidfest, Kolkata's premier conference for Kotlin and Android developers. Engage in knowledge exchange, networking, and skill enhancement with fellow enthusiasts and professionals.",
+  keywords: [
+    "Droidfest",
+    "Kotlin",
+    "Android",
+    "Developer Conference",
+    "Kolkata",
+    "Programming",
+    "Tech Event",
+    "Software Development",
+    "Kotlin User Group",
+    "Networking",
+    "Coding Workshop",
+  ],
+  authors: [{ name: "KUG Kolkata Dev Team" }],
 };
 
 export default function RootLayout({
@@ -27,13 +41,34 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Add Google Analytics script */}
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=G-H7B7Z0YPE1`}
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-H7B7Z0YPE1', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
+      </head>
       <body
         className={`${inter.className} ${inter.variable} ${roboto.variable} antialiased w-full h-full min-h-[100dvh] flex flex-col text-body`}
       >
-      <>
-       <Header />
-        {children}
-      </>
+        <>
+          <Header />
+          {children}
+        </>
       </body>
     </html>
   );
