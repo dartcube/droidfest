@@ -11,7 +11,7 @@ export interface TeamMember {
 }
 
 export const team: TeamMember[] = [
-    //Organisers
+  //Organisers
   {
     firstName: "Indranil",
     lastName: "Dutta",

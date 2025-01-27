@@ -18,7 +18,7 @@ export default function Home() {
       <Partners />
       {/* <Speaker /> */}
       <Team isOrganiser={true} />
-      <Team isEventOrganiser={true} />
+      {/* <Team isEventOrganiser={true} /> */}
       <Team isTeam={true}/>
       <FAQSection />
       <Footer />
