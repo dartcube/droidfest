@@ -8,7 +8,7 @@ const navItems: Array<{
   href: string;
 }> = [
   { name: "About Us", href: "#about-us" },
-  { name: "Team", href: "#team" },
+  // { name: "Team", href: "#team" },
   { name: "Timeline", href: "#workshop" },
   { name: "For partners", href: "#partners" },
   // { name: "For speakers", href: "#speakers" },
