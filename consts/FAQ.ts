@@ -7,7 +7,7 @@ export const faqs: FAQItem[] = [
   {
     question: "What is DroidFest 2025?",
     answer:
-      "DroidFest 2025 is the premier flagship event of the Kotlin User Group, Kolkata, bringing together students and professionals to explore, learn, and network in the realm of Kotlin and Android development.",
+      "DroidFest 2025 is the premier flagship event of the Kotlin User Group, Kolkata, bringing together students and professionals to explore, learn, and network in the realm of Kotlin.",
   },
   {
     question: "When and where is DroidFest 2025 happening?",
@@ -21,7 +21,7 @@ export const faqs: FAQItem[] = [
   {
     question: "Who can attend DroidFest 2025?",
     answer:
-      "DroidFest is open to everyone, including students, professionals, and enthusiasts who are passionate about Kotlin and Android development.",
+      "DroidFest is open to everyone, including students, professionals, and enthusiasts who are passionate about Kotlin.",
   },
   {
     question: "What can I expect at DroidFest 2025?",
@@ -36,11 +36,11 @@ export const faqs: FAQItem[] = [
   {
     question: "Will there be opportunities to network with industry professionals?",
     answer:
-      "Yes, DroidFest 2025 provides a unique platform to connect with industry leaders, developers, and peers from the Kotlin and Android community.",
+      "Yes, DroidFest 2025 provides a unique platform to connect with industry leaders, developers, and peers from the Kotlin community.",
   },
   {
     question: "Are there any sponsorship or partnership opportunities?",
     answer:
-      "Yes, we welcome sponsorships and partnerships. For more information, please reach out to us via our official contact channels.",
+      "Yes, we welcome sponsorships and partnerships. For more information, please drop a mail at kolkatakotlinusergroup@gmail.com",
   },
 ];

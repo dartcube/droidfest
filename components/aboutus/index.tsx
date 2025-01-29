@@ -15,7 +15,7 @@ const AboutUs: React.FC = () => {
   return (
     <section
       id="about-us"
-      className="relative flex items-center justify-center w-full py-20 px-8 relative"
+      className="flex items-center justify-center w-full py-20 px-8 relative"
     >
       
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -42,7 +42,7 @@ const AboutUs: React.FC = () => {
               </LinkPreview>
             </span>
             <span>
-              , designed to celebrate and elevate the Android and Kotlin
+              , designed to celebrate and elevate the Kotlin
               developer community. Since its inception, DroidFest has become a
               hub for innovation, learning, and collaboration, bringing together
               students, professionals, and tech enthusiasts to shape the future
@@ -56,8 +56,7 @@ const AboutUs: React.FC = () => {
               platform to explore cutting-edge technologies, share knowledge, and
               connect with industry leaders. At DroidFest 2025, we are committed
               to fostering a thriving ecosystem that drives creativity, expertise,
-              and community engagement in the world of Kotlin and Android
-              development.
+              and community engagement in the world of Kotlin.
             </p>
           )}
           

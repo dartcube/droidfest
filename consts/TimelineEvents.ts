@@ -3,7 +3,7 @@ export const timelineEvents = [
       id: 1, 
       title: 'Website Live', 
       description: 'Droidfest Website went live', 
-      time: '26th January' 
+      time: '30th January' 
     },
     { 
       id: 2, 

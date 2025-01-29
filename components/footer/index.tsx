@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import { SOCIAL_LINKS } from "@/consts/SocialLinks";
 import { BrandLogo } from "../ui/brand/logo";
-import { Button } from "../ui/button";
 import { Facebook, Twitter, Linkedin, Instagram, Youtube } from "lucide-react";
 
 const Footer: React.FC = () => {
@@ -13,7 +12,7 @@ const Footer: React.FC = () => {
         {/* <Button className="border rounded-full">Contact Us</Button> */}
         <div className="h-0.5 w-full bg-white/20 my-4" />
         <div className="flex justify-between items-center w-full flex-col md:flex-row gap-4">
-          <p className="text-sm">© 2021 DroidFest 2025. All rights reserved.</p>
+          <p className="text-sm">© Kotlin Kolkata User Group 2025. All rights reserved.</p>
           <div className="flex justify-center gap-6">
             <Link
               className="hover:text-white/70 transition-all duration-300"

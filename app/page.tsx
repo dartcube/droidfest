@@ -17,9 +17,9 @@ export default function Home() {
       <Timeline />
       <Partners />
       {/* <Speaker /> */}
-      <Team isOrganiser={true} />
+      {/* <Team isOrganiser={true} /> */}
       {/* <Team isEventOrganiser={true} /> */}
-      <Team isTeam={true}/>
+      {/* <Team isTeam={true}/> */}
       <FAQSection />
       <Footer />
     </div>
