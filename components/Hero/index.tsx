@@ -19,9 +19,9 @@ export default function Index() {
             {/* <Link href="#" className="btn-primary py-3 px-6 text-lg md:text-xl">
               Releasing Ticket Soon
             </Link> */}
-            {/* <Link href="#" className="btn-secondary py-3 px-6 text-lg md:text-xl">
+            <Link href="https://forms.gle/Hn3DPX3eCgPhbYRy5" className="btn-secondary py-3 px-6 text-lg md:text-xl">
               Apply for Speaker
-            </Link> */}
+            </Link>
           </div>
         </div>
 
