@@ -20,7 +20,7 @@ export default function Index() {
               Releasing Ticket Soon
             </Link> */}
             <Link href="https://forms.gle/Hn3DPX3eCgPhbYRy5" className="btn-secondary py-3 px-6 text-lg md:text-xl">
-              Apply for Speaker
+              Apply to be a Speaker
             </Link>
           </div>
         </div>
