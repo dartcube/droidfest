@@ -9,7 +9,7 @@ export const timelineEvents = [
       id: 2, 
       title: 'Call For Speaker', 
       description: 'Calling all Enthuastic Speaker to apply for our Event', 
-      time: 'Date to be Announced' 
+      time: '30th January' 
     },
     { 
       id: 3, 

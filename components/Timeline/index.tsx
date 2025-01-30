@@ -42,7 +42,18 @@ const Timeline = () => {
                   : "translate-x-16 text-left"
               }`}
             >
-              <h4 className="text-base md:text-lg font-bold">{event.title}</h4>
+              {event.title === "Call For Speaker" ? (
+                <a
+                  href="https://forms.gle/Hn3DPX3eCgPhbYRy5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white"
+                >
+                  <h4 className="text-base md:text-lg font-bold">{event.title}</h4>
+                </a>
+              ) : (
+                <h4 className="text-base md:text-lg font-bold">{event.title}</h4>
+              )}
               <p className="mt-2 text-xs md:text-sm opacity-60">{event.time}</p>
               <p className="mt-2 text-xs md:text-sm opacity-40 group-hover:opacity-100 transition-opacity duration-300">
                 {event.description}
