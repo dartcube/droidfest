@@ -91,6 +91,14 @@ export const team: TeamMember[] = [
     instagram: "https://www.instagram.com/thississsssdb__?igsh=dTU0Z2preXRocW00"
   },
   {
+    firstName: "Sweety",
+    lastName: "Jha",
+    role: "Social Media team",
+    image: "/team/sweety-jha.png",
+    twitter: "https://x.com/Sweetyjhaa?t=P1kkwPVy1uV-IsJHkMi_FQ&s=09",
+    instagram: "https://www.instagram.com/.armor?igsh=aDd2OXg1YTc1d2Iw"
+  },
+  {
     firstName: "Rupsha",
     lastName: "Das",
     role: "PR and Outreach team",
@@ -153,10 +161,17 @@ export const team: TeamMember[] = [
   {
     firstName: "Anwesha",
     lastName: "Choudhury",
-    role: "Photography team",
+    role: "Videography team",
     image: "/team/anwesha-choudhury.webp",
     linkedin: "https://www.linkedin.com/in/anwesha-choudhury-5b45b3325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     instagram: "https://www.instagram.com/anweshaaa._27?igsh=bjZ2ODByc21oNnI4"
+  },
+  {
+    firstName: "Abhishek",
+    lastName: "Ojha",
+    role: "Videography team",
+    image: "/team/abhishek-ojha.png",
+    linkedin: "https://www.linkedin.com/in/abhishek---ojha"
   },
   // Design team
   {
@@ -240,23 +255,4 @@ export const team: TeamMember[] = [
     github: "https://github.com/Aritri05",
     instagram: "https://www.instagram.com/abantika_r0y?igsh=MXQ5ejI0Y2hzNzJibQ=="
   },
-  // Social Media team
-  {
-    firstName: "Sweety",
-    lastName: "Jha",
-    role: "Social Media team",
-    image: "/team/sweety-jha.png",
-    twitter: "https://x.com/Sweetyjhaa?t=P1kkwPVy1uV-IsJHkMi_FQ&s=09",
-    instagram: "https://www.instagram.com/.armor?igsh=aDd2OXg1YTc1d2Iw"
-  },
-  // Videography team
-  {
-    firstName: "Abhishek",
-    lastName: "Ojha",
-    role: "Videography team",
-    image: "/team/abhishek-ojha.png",
-    linkedin: "https://www.linkedin.com/in/abhishek---ojha"
-  },
-
-
 ];
