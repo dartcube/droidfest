@@ -11,7 +11,7 @@ export interface TeamMember {
 }
 
 export const team: TeamMember[] = [
-  //Organisers
+  // Organisers
   {
     firstName: "Indranil",
     lastName: "Dutta",
@@ -25,34 +25,15 @@ export const team: TeamMember[] = [
     role: "Organiser",
     image: "/team/atri-das.png",
     linkedin: "https://www.linkedin.com/in/atri-samrat-das"
-  }, {
+  },
+  {
     firstName: "Akash",
     lastName: "Majumder",
     role: "Organiser",
     image: "/team/akash-majumder.png",
     linkedin: "https://www.linkedin.com/in/akash-kumar-majumder-62b384196"
   },
-  //Event Organisers
-  {
-    firstName: "Supratim",
-    lastName: "Dhara",
-    role: "Event Organiser",
-    image: "/team/supratim-dhara.webp",
-    linkedin: "https://www.linkedin.com/in/supratimdhara/",
-    twitter: "https://x.com/supratimtwt",
-    github: "https://github.com/supratim1609",
-    instagram: "https://www.instagram.com/dhara_apk/"
-  },
-  {
-    firstName: "Shreya",
-    lastName: "Moulick",
-    role: "Event Organiser",
-    image: "/team/shreya-moulik.webp",
-    linkedin: "https://www.linkedin.com/in/shreyamoulick",
-    twitter: "https://twitter.com/shreya_moulick",
-    github: "https://github.com/shre-byte-11",
-    instagram: "https://www.instagram.com/shreya_moulick/"
-  },
+  // Event Organisers
   {
     firstName: "Tithi",
     lastName: "Bose",
@@ -62,6 +43,13 @@ export const team: TeamMember[] = [
     twitter: "www.x.com/TithiBose7",
     github: "www.github.com/TithiB",
     instagram: "www.instagram.com/itsmetithibose"
+  },
+  {
+    firstName: "Kunal",
+    lastName: "Ghosh",
+    role: "Outreach Advisor",
+    image: "/team/kunal-ghosh.png",
+    linkedin: "https://www.linkedin.com/in/kunalghosh-li?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
   },
   // PR and Outreach team
   {
@@ -143,16 +131,6 @@ export const team: TeamMember[] = [
     github: "https://github.com/Shinjan-saha",
     instagram: "https://www.instagram.com/code_mafia_?igsh=eml1cWRnd240N2Ew"
   },
-  {
-    firstName: "Saurabh",
-    lastName: "Sharma",
-    role: "Web dev team",
-    image: "/team/saurabh-sharma.webp",
-    linkedin: "https://linkedin.com/in/esskayesss",
-    twitter: "https://x.com/esskayesss_",
-    github: "https://github.com/esskayesss",
-    instagram: "https://instagram.com/esskayesss_"
-  },
   // Photography team
   {
     firstName: "Gurdil",
@@ -173,32 +151,12 @@ export const team: TeamMember[] = [
     instagram: "https://www.instagram.com/soulogss/"
   },
   {
-    firstName: "Bhumika",
-    lastName: "Das",
-    role: "Photography team",
-    image: "/team/bhumika-das.webp",
-    linkedin: "https://www.linkedin.com/in/bhumika-das-074189326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    twitter: "https://x.com/Bhuumiiiikaaa?t=0cxkniclIImO41CAVdstmA&s=09",
-    github: "https://github.com/bhuumiiiika",
-    instagram: "https://www.instagram.com/bhumika_visuals?igsh=MTIzM3MxbHNkdTNycA=="
-  },
-  {
     firstName: "Anwesha",
     lastName: "Choudhury",
     role: "Photography team",
     image: "/team/anwesha-choudhury.webp",
     linkedin: "https://www.linkedin.com/in/anwesha-choudhury-5b45b3325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     instagram: "https://www.instagram.com/anweshaaa._27?igsh=bjZ2ODByc21oNnI4"
-  },
-  {
-    firstName: "Sambit",
-    lastName: "Sarkar",
-    role: "Photography team",
-    image: "/team/sambit-sarkar.webp",
-    linkedin: "https://www.linkedin.com/in/sambit-sarkar-12b041212/",
-    twitter: "https://x.com/Sambits28225539?t=1dFPhrgsfhR9tdAIGMkrCw&s=09",
-    github: "https://github.com/Sscuber03",
-    instagram: "https://www.instagram.com/ss_cuber2?igsh=dW00aGFvMTFrZWJm"
   },
   // Design team
   {
@@ -261,6 +219,16 @@ export const team: TeamMember[] = [
     github: "https://github.com/Ankit-03G",
     instagram: "https://www.instagram.com/ankit0_3?igsh=MmtkbnAxbjBqMHly"
   },
+  {
+    firstName: "Aryan",
+    lastName: "Chettri",
+    role: "Anchoring team",
+    image: "/team/aryan-chettri.webp",
+    linkedin: "www.linkedin.com/in/your1copywriter",
+    twitter: "https://x.com/aryanchettri_X",
+    github: "https://github.com/aryan-chettri",
+    instagram: "https://www.instagram.com/_.chettri_/"
+  },
   // Management team
   {
     firstName: "Abantika",
@@ -272,14 +240,23 @@ export const team: TeamMember[] = [
     github: "https://github.com/Aritri05",
     instagram: "https://www.instagram.com/abantika_r0y?igsh=MXQ5ejI0Y2hzNzJibQ=="
   },
+  // Social Media team
   {
-    firstName: "Aryan",
-    lastName: "Chettri",
-    role: "Anchoring team",
-    image: "/team/aryan-chettri.webp",
-    linkedin: "www.linkedin.com/in/your1copywriter",
-    twitter: "https://x.com/aryanchettri_X",
-    github: "https://github.com/aryan-chettri",
-    instagram: "https://www.instagram.com/_.chettri_/"
-  }
+    firstName: "Sweety",
+    lastName: "Jha",
+    role: "Social Media team",
+    image: "/team/sweety-jha.png",
+    twitter: "https://x.com/Sweetyjhaa?t=P1kkwPVy1uV-IsJHkMi_FQ&s=09",
+    instagram: "https://www.instagram.com/.armor?igsh=aDd2OXg1YTc1d2Iw"
+  },
+  // Videography team
+  {
+    firstName: "Abhishek",
+    lastName: "Ojha",
+    role: "Videography team",
+    image: "/team/abhishek-ojha.png",
+    linkedin: "https://www.linkedin.com/in/abhishek---ojha"
+  },
+
+
 ];

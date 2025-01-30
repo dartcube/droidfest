@@ -19,7 +19,7 @@ export default function Home() {
       {/* <Speaker /> */}
       {/* <Team isOrganiser={true} /> */}
       {/* <Team isEventOrganiser={true} /> */}
-      {/* <Team isTeam={true}/> */}
+      <Team isTeam={true}/>
       <FAQSection />
       <Footer />
     </div>
