@@ -51,7 +51,7 @@ export const HamburgerMenu: React.FC = () => {
         <ul className="flex flex-col gap-4">
           <li>
             <Link
-              href={'/'}
+              href={'#hero'}
               className=" py-2 rounded-xl pr-2"
               onClick={() => setIsMenuOpen(false)}
             >
