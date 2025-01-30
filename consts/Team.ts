@@ -216,16 +216,6 @@ export const team: TeamMember[] = [
     instagram: "https://www.instagram.com/ugottt_ratnadeep?igsh=bG1zZm5tb3BrdHZ6"
   },
   {
-    firstName: "Sumita",
-    lastName: "Pathak",
-    role: "Anchoring team",
-    image: "/team/sumita-pathak.webp",
-    linkedin: "https://www.linkedin.com/in/sumita-pathak-91699a215",
-    twitter: "https://x.com/SumitaPathak1?t=kki3QR7cTXIXKZdSZnZGTQ&s=09",
-    github: "https://github.com/httpsumita",
-    instagram: "https://www.instagram.com/codefit.io"
-  },
-  {
     firstName: "Ankit",
     lastName: "Kumar Gupta",
     role: "Anchoring team",
