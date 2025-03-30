@@ -40,16 +40,16 @@ export const Header: React.FC = () => {
             <Button asChild variant={"link"}>
 
             <Link href="#partners" >
-              For partners
+              Our Partners
             </Link>
             </Button>
           </li>
           <li>
             <Button asChild variant={"link"}>
 
-            {/* <Link href="#speakers" >
-              For speakers
-            </Link> */}
+            <Link href="#speakers" >
+               Speakers
+            </Link>
             </Button>
           </li>
           <li>

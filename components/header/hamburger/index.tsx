@@ -10,8 +10,8 @@ const navItems: Array<{
   { name: "About Us", href: "#about-us" },
   // { name: "Team", href: "#team" },
   { name: "Timeline", href: "#workshop" },
-  { name: "For partners", href: "#partners" },
-  // { name: "For speakers", href: "#speakers" },
+  { name: "Partners", href: "#partners" },
+   { name: "Speakers", href: "#speakers" },
 ];
 
 export const HamburgerMenu: React.FC = () => {
