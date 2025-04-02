@@ -57,5 +57,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 We can’t wait to see you at DroidFest 2025! Let’s build the future of Android together.
 
 
-live 5.1
+live 5.2
 
