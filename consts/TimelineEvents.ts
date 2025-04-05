@@ -21,13 +21,13 @@ export const timelineEvents = [
       id: 4, 
       title: 'Early Bird Ticket', 
       description: 'Early Bird get the Worm ,Grab your Early Bird Tickets :- Event Access, Regular Swags, Lunch & Refreshments', 
-      time: '5th march to 7th Apr 2025, 04:00 PM IST' 
+      time: '5th to 7th Apr 2025, 04:00 PM IST' 
     },
     { 
       id: 5, 
       title: 'Early Birds Exclusive Tickets', 
       description: 'Get Full Advanatage of being an Early Bird :-Event Access, DroidFest 25 Exclusive T-shirt, Regular Swags,Lunch & Refreshments', 
-      time: '5th march to 7th Apr 2025, 04:00 PM IST' 
+      time: '5th to 7th Apr 2025, 04:00 PM IST' 
     },
     // { 
     //   id: 6, 
