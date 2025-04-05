@@ -4,26 +4,30 @@ import Link from "next/link";
 export default function Index() {
   return (
     <main
-    id ="hero" 
-    className="flex items-center justify-center h-screen w-full bg-gradient-to-br from-gray-900 via-purple-900 to-black px-8 md:px-16 mt-24">
+      id="hero"
+      className="flex items-center justify-center h-screen w-full bg-gradient-to-br from-gray-900 via-purple-900 to-black px-8 md:px-16 mt-24">
       <div className="max-w-7xl w-full flex flex-col md:flex-row items-center justify-between gap-10">
 
         <div className="flex flex-col gap-6 max-w-lg text-left">
           <h1 className="text-6xl md:text-6xl font-extrabold text-white leading-tight">
             DroidFest 2025
           </h1>
-          <p className="text-body font-roboto text-lg md:text-xl">Kolkata, India- TBD</p>
+          <p className="text-body font-roboto text-lg md:text-xl">Kolkata, India- 26th April Techno India University 10:00AM to 4:00PM</p>
           <p className="text-heading-subtext text-white/75 text-sm md:text-base">
             Learn, network, and explore — where students and professionals unite
             to shape the future of Kotlin.
           </p>
           <div className="flex flex-wrap gap-4 mt-6">
-            {/* <Link href="#" className="btn-primary py-3 px-6 text-lg md:text-xl">
-              Releasing Ticket Soon
-            </Link> */}
-            <Link href="https://forms.gle/Hn3DPX3eCgPhbYRy5" className="btn-secondary py-3 px-6 text-lg md:text-xl">
-              Apply to be a Speaker
-            </Link>
+          <Link
+  href="https://konfhub.com/droidfest-kolkata-2025"
+  className="inline-block bg-gradient-to-r from-purple-600 via-fuchsia-500 to-purple-800 hover:from-purple-700 hover:via-fuchsia-600 hover:to-purple-900 text-white font-semibold py-3 px-6 text-lg md:text-xl rounded-full shadow-lg transition-all duration-300"
+>
+  🎟️ Buy Ticket
+</Link>
+
+
+
+            
           </div>
         </div>
 

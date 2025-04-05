@@ -13,27 +13,27 @@ export const timelineEvents = [
     },
     { 
       id: 3, 
-      title: '1st Phase Ticket', 
-      description: 'Early Bird get the Worm get your Ticket for Amazing Sessions & Swags', 
-      time: 'Date to be Announced' 
+      title: 'Speakers Released ', 
+      description: 'Get Ready for Amazing Sessions From our Amazing Speaker', 
+      time: '30th March' 
     },
     { 
       id: 4, 
-      title: '2nd Phase Ticket', 
-      description: 'Hurry up Guys Tickets are ending Soon', 
-      time: 'Date to be Announced' 
+      title: 'Early Bird Ticket', 
+      description: 'Early Bird get the Worm ,Grab your Early Bird Tickets :- Event Access, Regular Swags, Lunch & Refreshments', 
+      time: '5th march to 7th Apr 2025, 04:00 PM IST' 
     },
     { 
       id: 5, 
-      title: '3rd Phase Ticket', 
-      description: 'Last Chance to get your ticket get them fast before we ran out!', 
-      time: 'Date to be Announced' 
+      title: 'Early Birds Exclusive Tickets', 
+      description: 'Get Full Advanatage of being an Early Bird :-Event Access, DroidFest 25 Exclusive T-shirt, Regular Swags,Lunch & Refreshments', 
+      time: '5th march to 7th Apr 2025, 04:00 PM IST' 
     },
-    { 
-      id: 6, 
-      title: 'Events Date & Agenda ', 
-      description: 'D-Day of the real Event stay tuned for more Details', 
-      time: 'Date to be Announced' 
-    },
+    // { 
+    //   id: 6, 
+    //   title: 'Events Date & Agenda ', 
+    //   description: 'D-Day of the real Event stay tuned for more Details', 
+    //   time: 'Date to be Announced' 
+    // },
   ];
   
