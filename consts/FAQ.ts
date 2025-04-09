@@ -12,7 +12,7 @@ export const faqs: FAQItem[] = [
   {
     question: "When and where is DroidFest 2025 happening?",
     answer:
-      "TBD",
+      "26th April Techno India University 10:00AM to 4:00PM",
   },
   {
     question: "Is this a paid event?",

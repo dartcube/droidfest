@@ -20,14 +20,22 @@ export const Header: React.FC = () => {
             </Link>
             </Button>
           </li>
-          {/* <li>
+          <li>
             <Button asChild variant={"link"}>
 
             <Link href="#team" >
               Team
             </Link>
             </Button>
-          </li> */}
+          </li>
+          <li>
+            <Button asChild variant={"link"}>
+
+            <Link href="#speakers" >
+               Speakers
+            </Link>
+            </Button>
+          </li>
           <li>
             <Button asChild variant={"link"}>
 
@@ -44,22 +52,22 @@ export const Header: React.FC = () => {
             </Link>
             </Button>
           </li>
-          <li>
+          {/* <li>
             <Button asChild variant={"link"}>
 
             <Link href="#speakers" >
                Speakers
             </Link>
             </Button>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Button asChild variant={"secondary"}>
-{/* 
+
             <Link href="#" className="btn-primary hover:bg-black">
               Get Tickets
-            </Link> */}
+            </Link>
             </Button>
-          </li>
+          </li> */}
         </ul>
       </nav>
 

@@ -235,14 +235,5 @@ export const team: TeamMember[] = [
     instagram: "https://www.instagram.com/_.chettri_/"
   },
   // Management team
-  {
-    firstName: "Abantika",
-    lastName: "Roy",
-    role: "Management team",
-    image: "/team/abantika-roy.webp",
-    linkedin: "https://www.linkedin.com/in/abantika-roy-a4748025b/",
-    twitter: "https://x.com/AbantikaRo95982",
-    github: "https://github.com/Aritri05",
-    instagram: "https://www.instagram.com/abantika_r0y?igsh=MXQ5ejI0Y2hzNzJibQ=="
-  },
+ 
 ];
