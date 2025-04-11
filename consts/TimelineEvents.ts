@@ -33,7 +33,7 @@ export const timelineEvents = [
       id: 6, 
       title: 'Exclusive Ticket', 
       description: 'Get your Exclusive ticket Now:-Event Access, DroidFest 25 Exclusive T-shirt, Regular Swags,Lunch & Refreshments', 
-      time: '8th-12th Apr 2025, 04:00 PM IST' 
+      time: '13th Apr 2025, 04:00 PM IST' 
     },
   ];
   

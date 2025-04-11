@@ -28,7 +28,7 @@ export const speakers: Speaker[] = [
     twitter: "https://x.com/iammeghdeb",
   },
   {
-    name: "Nagendra Nath Chatterjee",
+    name: "Narendra Nath Chatterjee",
     position: "Android Developer @StockGro",
     topic:"Going Beyonds the basics with Kotlins",
     image: "/nnc.png",
