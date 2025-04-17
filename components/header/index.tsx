@@ -40,7 +40,7 @@ export const Header: React.FC = () => {
             <Button asChild variant={"link"}>
 
             <Link href="#workshop" >
-              Timeline
+              Agenda
             </Link>
             </Button>
           </li>

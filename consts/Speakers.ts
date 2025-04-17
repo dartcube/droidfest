@@ -10,6 +10,14 @@ interface Speaker {
 }
 
 export const speakers: Speaker[] = [
+
+  {
+    name: "Rivu Chakraborty",
+    position: "GDE for Android & Kotlin",
+    topic:"Integrating Gemini GenAI with Kotlin Multiplatform: a practical guide",
+    image: "/rc-1.jpeg",
+    linkedin: "https://www.linkedin.com/in/rivuchk/",
+  },
   {
     name: "Debayan Chatterjee",
     position: "Android Platform Engineer @UnderScore Technology",
@@ -34,6 +42,7 @@ export const speakers: Speaker[] = [
     image: "/nnc.png",
     linkedin: "https://www.linkedin.com/in/narendra-nath-chatterjee-8a7651133/",
   },
+
   
 
   // Add more speakers as needed

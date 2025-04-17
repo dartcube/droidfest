@@ -10,7 +10,7 @@ const Timeline = () => {
       <h2 className="text-4xl md:text-5xl font-bold leading-tight text-center mb-20">
         <span className="text-white">Our</span>{" "}
         <span className="text-transparent bg-clip-text bg-text-gradient">
-          Timeline
+          Agenda
         </span>
       </h2>
 

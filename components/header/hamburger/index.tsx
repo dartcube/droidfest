@@ -10,7 +10,7 @@ const navItems: Array<{
   { name: "About Us", href: "#about-us" },
    { name: "Team", href: "#team" },
    { name: "Speakers", href: "#speakers" },
-  { name: "Timeline", href: "#workshop" },
+  { name: "Agenda", href: "#workshop" },
   { name: "Partners", href: "#partners" },
   //  { name: "Speakers", href: "#speakers" },
 ];
