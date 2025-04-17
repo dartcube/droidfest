@@ -19,7 +19,7 @@ export const timelineEvents = [
     },
     { 
       id: 4, 
-      title: 'Intelligently Mobile:', 
+      title: 'Intelligently Mobile', 
       description: 'How Al can make our mobile apps Intelligent', 
       time: 'Debayan Chatterjee, 12:30 PM' 
     },

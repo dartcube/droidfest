@@ -13,7 +13,7 @@ export const speakers: Speaker[] = [
 
   {
     name: "Rivu Chakraborty",
-    position: "GDE for Android & Kotlin",
+    position: "GDE - Android & Kotlin,Mobile Architect @ JioHotstar",
     topic:"Integrating Gemini GenAI with Kotlin Multiplatform: a practical guide",
     image: "/rc-1.jpeg",
     linkedin: "https://www.linkedin.com/in/rivuchk/",

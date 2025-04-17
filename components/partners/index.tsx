@@ -11,7 +11,7 @@ const Partners: React.FC = () => {
       className="relative py-16 px-8 portrait:px-0 w-[-webkit-fill-available] max-w-7xl mx-auto"
     >
       <h2 className="text-5xl font-bold text-center text-transparent bg-clip-text bg-text-gradient mb-12">
-        Previous Partners
+        Our Sponsors
       </h2>
       <div className="relative">
         <Marquee
