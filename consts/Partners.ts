@@ -1,7 +1,7 @@
 export const partners = [
     {
         title: "Google for Developer",
-        src: "/gdglogo.png"
+        src: "/gdglogo-1.png"
     },
     // {
     //     title: "Red Bull",
