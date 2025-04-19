@@ -12,7 +12,7 @@ export const faqs: FAQItem[] = [
   {
     question: "When and where is DroidFest 2025 happening?",
     answer:
-      "26th April Techno India University 10:00AM to 4:00PM",
+      "26th April Techno India University 10:00AM to 5:00PM",
   },
   {
     question: "Is this a paid event?",
@@ -31,7 +31,7 @@ export const faqs: FAQItem[] = [
   {
     question: "How can I register for the event?",
     answer:
-      "Registration details will be shared soon. Stay tuned to our official communication channels for updates.",
+      "You Can Register for the Event by Purchasing the Ticket.",
   },
   {
     question: "Will there be opportunities to network with industry professionals?",

@@ -15,13 +15,13 @@ export const timelineEvents = [
       id: 3, 
       title: 'Intelligently Mobile', 
       description: 'How Al can make our mobile apps Intelligent', 
-      time: 'Debayan Chatterjee, 12:30 PM' 
+      time: 'Debayan Chatterjee, 11:45 AM' 
     },
     { 
       id: 4, 
       title: 'Integrating Gemini', 
       description: 'Integrating Gemini GenAI with Kotlin Multiplatform: a practical guide', 
-      time: 'Rivu Chakraborty, 11:45 AM' 
+      time: 'Rivu Chakraborty, 12:30 PM' 
     },
    
     { 
