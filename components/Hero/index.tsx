@@ -10,28 +10,22 @@ export default function Index() {
 
         <div className="flex flex-col gap-6 max-w-lg text-left">
           <h1 className="text-6xl md:text-6xl font-extrabold text-white leading-tight">
-            DroidFest 2025
+            DroidFest 2026
           </h1>
-          <p className="text-body font-roboto text-lg md:text-xl">Kolkata, India- 26th April Techno India University 10:00AM to 5:00PM</p>
+          <p className="text-body font-roboto text-lg md:text-xl">Venue : To Be Announced Soon!</p>
           <p className="text-heading-subtext text-white/75 text-sm md:text-base">
             Learn, network, and explore — where students and professionals unite
             to shape the future of Kotlin.
           </p>
           <div className="flex flex-wrap gap-4 mt-6">
-          <Link
-  href=""
-  className="inline-block bg-gradient-to-r from-purple-600 via-fuchsia-500 to-purple-800 hover:from-purple-700 hover:via-fuchsia-600 hover:to-purple-900 text-white font-semibold py-3 px-6 text-lg md:text-xl rounded-full shadow-lg transition-all duration-300"
->
-  See You There
-</Link>
-
-
-
-            
+            <Link
+              href=""
+              className="inline-block bg-gradient-to-r from-purple-600 via-fuchsia-500 to-purple-800 hover:from-purple-700 hover:via-fuchsia-600 hover:to-purple-900 text-white font-semibold py-3 px-6 text-lg md:text-xl rounded-full shadow-lg transition-all duration-300"
+            >
+              See You There
+            </Link>
           </div>
         </div>
-
-
         <div className="flex flex-col items-center gap-6 mt-8 md:mt-0">
           <Image
             src="/kug-mascot.webp"
