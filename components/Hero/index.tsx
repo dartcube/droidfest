@@ -24,7 +24,7 @@ export default function Index() {
               rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-purple-600 via-fuchsia-500 to-purple-800 hover:from-purple-700 hover:via-fuchsia-600 hover:to-purple-900 text-white font-semibold py-3 px-6 text-lg md:text-xl rounded-full shadow-lg transition-all duration-300"
             >
-              See You There
+              Grab Your Ticket
             </Link>
           </div>
         </div>

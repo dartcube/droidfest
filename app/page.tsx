@@ -15,7 +15,7 @@ export default function Home() {
       <Hero />
       <AboutUs />
       {/* <Timeline /> */}
-      <Partners />
+      {/* <Partners /> */}
       {/* <Speaker /> */}
       {/* <Team isOrganiser={true} /> */}
       {/* <Team isEventOrganiser={true} /> */}
