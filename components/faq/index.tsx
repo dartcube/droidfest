@@ -6,10 +6,8 @@ import { ChevronDown } from "lucide-react"
 import { useState } from "react"
 import { SplineScene } from "../ui/splite"
 
-
-
 export default function FAQSection() {
-  const [expandedIndex, setExpandedIndex] = useState<number | null>(null)
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(0)
 
   return (
     <div className="p-6 flex flex-col items-center justify-center">
@@ -31,7 +29,7 @@ export default function FAQSection() {
                   className="w-full flex items-center justify-between text-left text-white p-4 hover:bg-white/5 rounded-lg transition-colors"
                 >
                   <span className="text-lg">{faq.question}</span>
-                  <motion.div animate={{ rotate: expandedIndex === index ? 180 : 0 }} transition={{ duration: 0.3 }}>
+                  <motion.div animate={{ rotate: expandedIndex === index ? 180 : 0 }} transition={{ duration: 0.2 }}>
                     <ChevronDown className="w-5 h-5 text-purple-400" />
                   </motion.div>
                 </button>
@@ -42,7 +40,10 @@ export default function FAQSection() {
                       initial={{ height: 0, opacity: 0 }}
                       animate={{ height: "auto", opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.3, ease: "easeInOut" }}
+                      transition={{
+                        duration: 0.3,
+                        ease: "easeInOut",
+                      }}
                       className="overflow-hidden"
                     >
                       <div className="p-4 text-white/70 text-sm leading-relaxed">{faq.answer}</div>

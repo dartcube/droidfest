@@ -54,7 +54,7 @@ const AboutUs: React.FC = () => {
             <p className="mt-4 text-lg leading-relaxed">
               Our mission is to inspire and empower developers by providing a
               platform to explore cutting-edge technologies, share knowledge, and
-              connect with industry leaders. At DroidFest 2025, we are committed
+              connect with industry leaders. At DroidFest 2026, we are committed
               to fostering a thriving ecosystem that drives creativity, expertise,
               and community engagement in the world of Kotlin.
             </p>

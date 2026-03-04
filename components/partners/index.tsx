@@ -35,13 +35,12 @@ const Partners: React.FC = () => {
         <p className="text-lg text-gray-700 text-center sm:text-left">
           Wanna be a part of our journey? Help us in making it even better!
         </p>
-        <Link href="https://docs.google.com/forms/d/13x3dER7VpNQh1idZY2yBl0FShrUO5-Y9e7ZSvIz_Tbg/viewform?edit_requested=true" legacyBehavior>
-          <a
-            className="px-6 py-2 bg-purple-500 text-white font-semibold text-sm rounded-full hover:bg-purple-600 transition-transform"
-          >
-            Join Us
-          </a>
-        </Link>
+        {/* <Link
+          href="https://docs.google.com/forms/d/13x3dER7VpNQh1idZY2yBl0FShrUO5-Y9e7ZSvIz_Tbg/viewform?edit_requested=true"
+          className="px-6 py-2 bg-purple-500 text-white font-semibold text-sm rounded-full hover:bg-purple-600 transition-transform"
+        >
+          Join Us
+        </Link> */}
       </div>
     </section>
   );
