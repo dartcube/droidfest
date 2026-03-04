@@ -12,14 +12,16 @@ export default function Index() {
           <h1 className="text-6xl md:text-6xl font-extrabold text-white leading-tight">
             DroidFest 2026
           </h1>
-          <p className="text-body font-roboto text-lg md:text-xl">Venue : To Be Announced Soon!</p>
+          <p className="text-body font-roboto text-lg md:text-xl">Venue : Sister Nivedita University, B Block Auditorium</p>
           <p className="text-heading-subtext text-white/75 text-sm md:text-base">
             Learn, network, and explore — where students and professionals unite
             to shape the future of Kotlin.
           </p>
           <div className="flex flex-wrap gap-4 mt-6">
             <Link
-              href=""
+              href="https://konfhub.com/checkout/droidfest-kolkata-2026?ticketId=81486"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-purple-600 via-fuchsia-500 to-purple-800 hover:from-purple-700 hover:via-fuchsia-600 hover:to-purple-900 text-white font-semibold py-3 px-6 text-lg md:text-xl rounded-full shadow-lg transition-all duration-300"
             >
               See You There
