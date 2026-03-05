@@ -13,6 +13,7 @@ export default function Index() {
             DroidFest 2026
           </h1>
           <p className="text-body font-roboto text-lg md:text-xl">Venue : Sister Nivedita University, B Block Auditorium</p>
+          <p className="text-body font-roboto text-md md:text-lg">Date : Mar 28th, 2026</p>
           <p className="text-heading-subtext text-white/75 text-sm md:text-base">
             Learn, network, and explore — where students and professionals unite
             to shape the future of Kotlin.

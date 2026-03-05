@@ -15,7 +15,7 @@ const roboto = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Droidfest 2025",
+  title: "Droidfest 2026",
   description:
     "Join us at Droidfest, Kolkata's premier conference for Kotlin and Android developers. Engage in knowledge exchange, networking, and skill enhancement with fellow enthusiasts and professionals.",
   keywords: [
