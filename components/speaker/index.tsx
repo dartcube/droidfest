@@ -31,7 +31,7 @@ const SpeakerSection: React.FC = () => {
             <Spotlight className="-top-40 scale-[2.5] left-0 md:left-60 md:-top-20" />
             <div className="flex flex-col items-center text-center">
               <div className="relative w-48 h-48 rounded-full overflow-hidden mb-4">
-                <Image src={speaker.image} alt={speaker.name} fill className="object-cover" />
+                <Image src={speaker.image} alt={speaker.name} fill className="object-cover object-top" />
               </div>
               <h3 className="text-xl font-bold text-center mb-2">{speaker.name}</h3>
               <p className="text-gray-600 mb-1 text-center text-sm text-white/80">{speaker.position}</p>

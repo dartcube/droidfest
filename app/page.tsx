@@ -16,10 +16,10 @@ export default function Home() {
       <AboutUs />
       {/* <Timeline /> */}
       {/* <Partners /> */}
-      {/* <Speaker /> */}
-      {/* <Team isOrganiser={true} /> */}
-      {/* <Team isEventOrganiser={true} /> */}
-      {/* <Team isTeam={true}/> */}
+      <Speaker />
+      {/* <Team isOrganiser={true} />
+      <Team isEventOrganiser={true} />
+      <Team isTeam={true}/> */}
       <FAQSection />
       <Footer />
     </div>

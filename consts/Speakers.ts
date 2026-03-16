@@ -10,37 +10,19 @@ interface Speaker {
 }
 
 export const speakers: Speaker[] = [
-
   {
-    name: "Rivu Chakraborty",
-    position: "GDE - Android & Kotlin,Mobile Architect @ JioHotstar",
-    topic:"Integrating Gemini GenAI with Kotlin Multiplatform: a practical guide",
-    image: "/rc-1.jpeg",
-    linkedin: "https://www.linkedin.com/in/rivuchk/",
-  },
-  {
-    name: "Debayan Chatterjee",
-    position: "Android Platform Engineer @UnderScore Technology",
-    topic:"From Zero to AI,A Kotlin Developers Roadmap to Smarter Apps",
-    image: "/dc.png",
-    linkedin: "https://www.linkedin.com/in/debayan-androidista/",
-    website: "https://sprect.com/pro/debayan",
-  },
-  {
-    name: "Megh Deb",
-    position: "Mentor @Hackquest",
-    topic:"Establishing Connection Between Web3 & Android Apps",
-    image: "/md.png",
-    github:"https://github.com/Megh2005",
-    linkedin: "https://www.linkedin.com/in/megh-deb/",
-    twitter: "https://x.com/iammeghdeb",
+    name: "Rohit Kumar",
+    position: "Android Developer @FloBiz",
+    topic:"A Beginner's Guide to 100% Kotlin Full-Stack",
+    image: "/rk.jpeg",
+    linkedin: "https://www.linkedin.com/in/rohit115",
   },
   {
     name: "Narendra Nath Chatterjee",
-    position: "Android Developer @StockGro",
-    topic:"Going Beyonds the basics with Kotlins",
-    image: "/nnc.png",
-    linkedin: "https://www.linkedin.com/in/narendra-nath-chatterjee-8a7651133/",
+    position: "Senior Android Engineer @Ajaib",
+    topic: "Spec driven development with AI",
+    image: "/nnc.JPG",
+    linkedin: "https://www.linkedin.com/in/narendra-nath-chatterjee-8a7651133",
   },
 
   
