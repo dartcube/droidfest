@@ -35,7 +35,7 @@ export default function TeamCard({
       <motion.img
         src={image}
         alt={`${firstName} ${lastName}`}
-        className={`object-cover h-full w-full filter grayscale ${isInView ? 'filter-none md:filter-none lg:filter-none' : ''}`}
+        className={`object-cover object-top h-full w-full filter grayscale ${isInView ? 'filter-none md:filter-none lg:filter-none' : ''}`}
         height={200}
         width={200}
         initial={{ filter: 'grayscale(100%)' }}

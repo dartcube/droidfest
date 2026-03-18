@@ -34,9 +34,6 @@ export default function Team({
             website={member.website}
           />
         ))}
-
-
-
       </div>
     </section>
   );
