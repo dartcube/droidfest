@@ -20,7 +20,7 @@ export default function Index() {
           </p>
           <div className="flex flex-wrap gap-4 mt-6">
             <Link
-              href="https://konfhub.com/checkout/droidfest-kolkata-2026?ticketId=82268"
+              href="https://konfhub.com/checkout/droidfest-kolkata-2026?ticketId=87607"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-purple-600 via-fuchsia-500 to-purple-800 hover:from-purple-700 hover:via-fuchsia-600 hover:to-purple-900 text-white font-semibold py-3 px-6 text-lg md:text-xl rounded-full shadow-lg transition-all duration-300"
