@@ -11,11 +11,18 @@ interface Speaker {
 
 export const speakers: Speaker[] = [
   {
-    name: "Rohit Kumar",
-    position: "Android Developer @FloBiz",
-    topic:"A Beginner's Guide to 100% Kotlin Full-Stack",
-    image: "/rk.jpeg",
-    linkedin: "https://www.linkedin.com/in/rohit115",
+    name: "Rajat Bhatia",
+    position: "Program Coordinator at Google",
+    topic: "Google Developer & Startup program overview",
+    image: "/rb.jpeg",
+    linkedin: "https://www.linkedin.com/in/rajatbhatia24",
+  },
+  {
+    name: "Belal Khan",
+    position: "Senior Engineer @American Express | Google Developer Expert",
+    topic: "Google Developer & Startup program overview",
+    image: "/bk.jpeg",
+    linkedin: "https://www.linkedin.com/in/probelalkhan",
   },
   {
     name: "Narendra Nath Chatterjee",
@@ -24,10 +31,13 @@ export const speakers: Speaker[] = [
     image: "/nnc.JPG",
     linkedin: "https://www.linkedin.com/in/narendra-nath-chatterjee-8a7651133",
   },
-
-  
-
-  // Add more speakers as needed
+  {
+    name: "Rohit Kumar",
+    position: "Android Developer @FloBiz",
+    topic:"A Beginner's Guide to 100% Kotlin Full-Stack",
+    image: "/rk.jpeg",
+    linkedin: "https://www.linkedin.com/in/rohit115",
+  },
 ];
 
 export default speakers;
