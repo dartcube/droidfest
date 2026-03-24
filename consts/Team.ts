@@ -46,7 +46,7 @@ export const team: TeamMember[] = [
     firstName: "Sarmistha",
     lastName: "Ghosh",
     role: "Social Media team",
-    image: "/team/sarmistha-ghosh.webp",
+    image: "/team/sarmistha-ghosh.png",
     linkedin: "https://www.linkedin.com/in/sarmistha-ghosh-923171281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     twitter: "https://x.com/sarmisthasoumi",
     github: "https://github.com/sarmisthaghosh2005",

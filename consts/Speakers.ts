@@ -38,6 +38,20 @@ export const speakers: Speaker[] = [
     image: "/rk.jpeg",
     linkedin: "https://www.linkedin.com/in/rohit115",
   },
+  {
+    name: "Rivu Chakrabarty",
+    position: "GDE - Andriod & Kotlin | Founder Mobrio Studio",
+    topic: "Compose Multiplatform Meets Music AI: Building FretPractice",
+    image: "/rc.jpeg",
+    linkedin: "https://www.linkedin.com/in/rivuchk",
+  },
+  {
+    name: "Srijan Mukherjee",
+    position: "AI/ML Engineer Intern @Mobrio Studio",
+    topic:"Compose Multiplatform Meets Music AI: Building FretPractice",
+    image: "/sm.jpeg",
+    linkedin: "https://www.linkedin.com/in/technosrijan",
+  },
 ];
 
 export default speakers;
