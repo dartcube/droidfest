@@ -47,7 +47,7 @@ export const team: TeamMember[] = [
     lastName: "Ghosh",
     role: "Event Organiser",
     image: "/team/sarmistha-ghosh.png",
-    linkedin: "https://www.linkedin.com/in/sarmistha-ghosh-923171281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    linkedin: "https://www.linkedin.com/in/sarmistha-ghosh-923171281",
     twitter: "https://x.com/sarmisthasoumi",
     github: "https://github.com/sarmisthaghosh2005",
     instagram: "https://www.instagram.com/sarmistha.ghosh_2005/"
@@ -59,8 +59,8 @@ export const team: TeamMember[] = [
     role: "Social Media team",
     image: "/team/sweety-jha.png",
     linkedin: "https://www.linkedin.com/in/sweety-jha-339116201",
-    twitter: "https://x.com/Sweetyjhaa?t=P1kkwPVy1uV-IsJHkMi_FQ&s=09",
-    instagram: "https://www.instagram.com/.armor?igsh=aDd2OXg1YTc1d2Iw"
+    twitter: "https://x.com/Sweetyjhaa",
+    instagram: "https://www.instagram.com/.armor"
   },
   // Web dev
   {
