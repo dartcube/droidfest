@@ -41,17 +41,18 @@ export const team: TeamMember[] = [
     image: "/team/akash-majumder.png",
     linkedin: "https://www.linkedin.com/in/akash-kumar-majumder-62b384196"
   },
-  // Social media team
+  // Event Organiser team
   {
     firstName: "Sarmistha",
     lastName: "Ghosh",
-    role: "Social Media team",
+    role: "Event Organiser",
     image: "/team/sarmistha-ghosh.png",
     linkedin: "https://www.linkedin.com/in/sarmistha-ghosh-923171281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     twitter: "https://x.com/sarmisthasoumi",
     github: "https://github.com/sarmisthaghosh2005",
     instagram: "https://www.instagram.com/sarmistha.ghosh_2005/"
   },
+  // Social media team
   {
     firstName: "Sweety",
     lastName: "Jha",

@@ -25,6 +25,13 @@ export const speakers: Speaker[] = [
     linkedin: "https://www.linkedin.com/in/probelalkhan",
   },
   {
+    name: "Rivu Chakrabarty",
+    position: "GDE - Andriod & Kotlin | Founder Mobrio Studio",
+    topic: "Compose Multiplatform Meets Music AI: Building FretPractice",
+    image: "/rc.jpeg",
+    linkedin: "https://www.linkedin.com/in/rivuchk",
+  },
+  {
     name: "Narendra Nath Chatterjee",
     position: "Senior Android Engineer @Ajaib",
     topic: "Spec driven development with AI",
@@ -37,13 +44,6 @@ export const speakers: Speaker[] = [
     topic:"A Beginner's Guide to 100% Kotlin Full-Stack",
     image: "/rk.jpeg",
     linkedin: "https://www.linkedin.com/in/rohit115",
-  },
-  {
-    name: "Rivu Chakrabarty",
-    position: "GDE - Andriod & Kotlin | Founder Mobrio Studio",
-    topic: "Compose Multiplatform Meets Music AI: Building FretPractice",
-    image: "/rc.jpeg",
-    linkedin: "https://www.linkedin.com/in/rivuchk",
   },
   {
     name: "Srijan Mukherjee",
